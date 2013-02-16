@@ -67,7 +67,7 @@ Here's what you need to change:
 
 1. learn-x-the-hard-way.rst -- Rename this to your book's PDF and mobi file name
    then edit this to have your exercises included the way I have them.
-2. preamble.rst -- Edit the authorshipt stuff for the PDF output.
+2. preamble.tex -- Edit the authorshipt stuff for the PDF output.
 3. Makefile -- Change the target host for rsyncing it to your server if you use one.
 4. template.html -- Change up the name of your own site and various other
    things, or put your own HTML look onto it.  It currently uses Zurb Foundation
@@ -151,7 +151,7 @@ You use it all like this:
 1. Edit the dexy.yaml file and put your language extension in there like I've got.
    The syntax is FILENAME_PATTERN|FILTER1|FILTER2, etc.  For mine, I'm mostly using
    the pyg(pygmentize) filter.  For python, it looks like this: .py|pyg|l.  .py (or *.py)
-   is the pattern of files to convert, pyg is the pygmentize filter for highlting code
+   is the pattern of files to convert, pyg is the pygmentize filter for highlighting code
    and "l" is the filter for converting to LaTex.  You'll also need another stanza for
    the |h code to get HTML, but look at my example to see.
 2. Put your code for each exercise in code/ named after each exercise.
