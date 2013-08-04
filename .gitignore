@@ -4,3 +4,4 @@ output-long/*
 output/*
 .*.sw*
 
+.cache

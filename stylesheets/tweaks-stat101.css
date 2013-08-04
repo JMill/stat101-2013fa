@@ -1,0 +1,25 @@
+.docutils.literal {
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #666;
+    padding: 0px 5px 2px;
+}
+
+pre {
+    border: 1px solid #ddd;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.literal-block {
+    border: 1px solid #ddd;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+}

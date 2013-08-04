@@ -36,19 +36,19 @@ latex-code:
     - rst2html:
         { clargs: "--template=template.html" }
 
-learn-x-the-hard-way.rst|jinja|rst2latex|latex:
-    - code
-    - assets
-    - latex-code
-    - tex-assets
-    - ex*.rst
-    - rst2latex:
-        { clargs: "--documentclass=book \
-                   --documentoptions=letterpaper \
-                   --latex-preamble='\\include{preamble}' \
-                   --stylesheet=orkestrix",
-          add-new-files: True
-        }
+#learn-x-the-hard-way.rst|jinja|rst2latex|latex:
+#    - code
+#    - assets
+#    - latex-code
+#    - tex-assets
+#    - ex*.rst
+#    - rst2latex:
+#        { clargs: "--documentclass=book \
+#                   --documentoptions=letterpaper \
+#                   --latex-preamble='\\include{preamble}' \
+#                   --stylesheet=orkestrix",
+#          add-new-files: True
+#        }
 
 # learn-x-the-hard-way.rst|jinja|rst2html|calibre:
 #     - code

@@ -1,57 +1,198 @@
 {% import "macros/ork.jinja" as ork with context %}
-Learn X The Hard Way
-********************
+Statistics 101 course outline
+*********************************
+Jonathan B. Miller, Saint Francis University, 2013 Fall
+
+Last updated on {{ d['code/00----datetimestamp.py|py']}}
 
 
-Table Of Contents
-=================
+`Preface <preface.html>`_
 
-* `Preface <preface.html>`_
-* `Introduction <introduction.html>`_
-* `Exercise 0 <ex0.html>`_
-* `Exercise 1 <ex1.html>`_
-* `Exercise 2 <ex2.html>`_
-* `Exercise 3 <ex3.html>`_
-* `Exercise 4 <ex4.html>`_
-* `Exercise 5 <ex5.html>`_
-* `Exercise 6 <ex6.html>`_
-* `Exercise 7 <ex7.html>`_
-* `Exercise 8 <ex8.html>`_
-* `Exercise 9 <ex9.html>`_
-* `Exercise 10 <ex10.html>`_
-* `Exercise 11 <ex11.html>`_
-* `Exercise 12 <ex12.html>`_
-* `Exercise 13 <ex13.html>`_
-* `Exercise 14 <ex14.html>`_
-* `Exercise 15 <ex15.html>`_
-* `Exercise 16 <ex16.html>`_
-* `Exercise 17 <ex17.html>`_
-* `Exercise 18 <ex18.html>`_
-* `Exercise 19 <ex19.html>`_
-* `Exercise 20 <ex20.html>`_
-* `Exercise 21 <ex21.html>`_
-* `Exercise 22 <ex22.html>`_
-* `Exercise 23 <ex23.html>`_
-* `Exercise 24 <ex24.html>`_
-* `Exercise 25 <ex25.html>`_
-* `Exercise 26 <ex26.html>`_
-* `Exercise 27 <ex27.html>`_
-* `Exercise 28 <ex28.html>`_
-* `Exercise 29 <ex29.html>`_
-* `Exercise 30 <ex30.html>`_
-* `Exercise 31 <ex31.html>`_
-* `Exercise 32 <ex32.html>`_
-* `Exercise 33 <ex33.html>`_
-* `Next Steps <next.html>`_
+`Introduction <introduction.html>`_
 
-.. _faq:
+`Lecture 0 <lecture00.html>`_
 
-Frequently Asked Questions
-==========================
+`Lecture 1 <lecture01.html>`_
 
-How long does this course take?
-    You should take as long as it takes to get through it, but focus on doing work every day.
-    Some people take about 3 months, others 6 months, and some only a week.
+`Lecture 2 <lecture02.html>`_
 
-What kind of computer do I need?
-    You will need either a Windows, OSX or Linux computer to complete this book.
+
+Week 1
+---------
+Reading: `Chapter 3 <http://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm>`_
+
+Introduction
+~~~~~~~~~~~~~~~~
+- Why study descriptive statistics
+- Variables, terminology
+- Bar graphs: describing categorical data
+
+Histogram
+~~~~~~~~~~~~~~~~
+- Describing one quantitative variable
+- How to draw a histogram
+- Units and density
+
+Measures of Position
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Percentiles: estimating from a histogram
+- Percentiles: more carefully, from data
+
+Week 2
+-----------
+
+Reading: `Chapter 4 <http://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm>`_
+
+Measures of Location (Central Tendency)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Median and mode
+- Average
+- Comparing and combining averages
+- The average and the histogram; the average and the median
+- Markov's inequality
+
+Measures of Spread (Variation)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Range
+- Variance
+- Standard Deviation
+- Coefficient of Variation
+
+WEEK 3
+==========
+
+Reading: Chapter 23
+
+Normal Curve
+--------------------
+
+WEEK 4
+
+Chapters 5, 7-8
+
+Relation between two variables
+----------------------------------------------
+- Scatter Diagrams
+- Correlation Coefficient: Calculation and Properties
+- Using r, with caution
+
+Chapter 9
+
+Regression
+------------------------
+- Estimation; bivariate normal ('football shaped') scatter diagrams
+- Regression effect, Galton, and the regression fallacy
+- Equation of the regression line
+
+(Skip Chapter 10)
+
+Chapter 11
+
+Error in the regression estimate
+-------------------------------------------------
+- Least squares: why the regression line and no other
+- The r.m.s. error of regression; calculations assuming bivariate normal scatter
+- How regression is commonly used; estimating an 'unknown true line'.
+
+
+
+
+WEEK 5
+
+Chapters 13, 17, 18, 19(?)
+
+Two fundamental rules
+------------------------------------
+- What is probability?
+- Addition rule
+- Multiplication rule
+- Problem-solving techniques
+- Conditional or unconditional
+- Lets Make A Deal
+- Bayes' Rule
+
+WEEK 6
+
+Chapter 20
+
+Random sampling with and without replacement
+------------------------------------------------------------------------
+- Independence
+- Sampling with replacement: the binomial formula
+- Sampling without replacement: the hypergeometric formula
+
+Chapter 22
+
+The law of averages (large numbers), and expected values
+------------------------------------------------------------------------
+- Not the law of averages
+- The law of averages
+- The expected value of a random sum
+- The expected value of a random average
+
+WEEK 7
+
+Chapter 23, cont'd
+
+Central Limit Theorem
+------------------------------------
+- Standard error of a random sum
+- Probabilities for the sum of a large sample
+- Central Limit Theorem
+- Scope of the normal approximation
+
+------------------------------------------------------------------------------------------------------------------------
+
+WEEK 8
+
+Chapter 26
+
+Estimating unknown parameters
+------------------------------------------------
+- Random samples
+- Estimating population averages and percents
+- Approximate confidence interval
+- Interpreting confidence intervals
+
+WEEK 9
+
+Chapter 27
+
+Testing Statistical Hypotheses
+------------------------------------------------
+- Testing hypotheses: terminology
+- Tests for a population proportion
+- Significance level and P-value
+- One tail or two?
+
+WEEK 10
+
+Chapter 30
+
+One-sample and two-sample tests
+------------------------------------------------
+- z-test for a population mean
+- t-test for a population mean
+- Testing for the difference between means
+- Testing for the difference between proportions
+
+WEEK 11
+
+Chapter 30, cont'd
+
+Dependent samples
+------------------------------------
+- Paired samples: parametric analysis
+- Paired samples: nonparametric analysis
+- Randomized experiments: method
+- Randomized experiments: justification
+
+WEEK 12
+
+Chapter 31
+
+Window to a wider world
+------------------------------------
+- Not everything's normal: a chi-squared test
+- How Fisher used the chi-squared test
+- Chi-squared test for independence

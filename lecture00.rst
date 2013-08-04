@@ -23,4 +23,5 @@ Here's an example writing some code inline:
     make ex0
     ./ex0
 
+Here is ``code`` in the same sentence.
 
