@@ -5,24 +5,29 @@ Jonathan B. Miller, Saint Francis University, 2013 Fall
 
 Last updated on {{ d['code/00----datetimestamp.py|py']}}
 
+The content linked below has typos. Let me know when you find one.
 
-`Preface <preface.html>`_
-
-`Introduction <introduction.html>`_
-
-`Lecture 0 <lecture00.html>`_
-
-`Lecture 1 <lecture01.html>`_
-
-`Lecture 2 <lecture02.html>`_
+* Syllabus
+* Calendar
+* `Glossary <glossary.html>`_
 
 
 Week 1
----------
-Reading: `Chapter 3 <http://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm>`_
+--------------------
+Reading: `SticiGui, Chapter 3 - Statistics <http://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm>`_
 
-Introduction
-~~~~~~~~~~~~~~~~
+`Lecture 1. Introduction to Statistics <lecture01.html>`_
+
+- What is statistics?
+- Why study statistics?
+- Statistics... and math
+- How this course is arranged
+- Resources for this course
+
+`Lecture 2. <lecture02.html>`_
+
+
+
 - Why study descriptive statistics
 - Variables, terminology
 - Bar graphs: describing categorical data
@@ -37,6 +42,11 @@ Measures of Position
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Percentiles: estimating from a histogram
 - Percentiles: more carefully, from data
+
+
+`Lab 01 <lab01.html>`_
+
+
 
 Week 2
 -----------
