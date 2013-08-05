@@ -2,5 +2,3 @@
 Preface
 *******
 
-Hi, Stat 101!
-
