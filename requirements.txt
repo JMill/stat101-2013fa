@@ -1,2 +1,2 @@
 dexy
-docutils
+docutils==0.10

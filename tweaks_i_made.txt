@@ -1,0 +1,20 @@
+
+** to fix pygments interfering with parts of MathJax equations:
+
+see https://groups.google.com/forum/#!msg/mathjax-users/LgwIpABeP1A/KyNPPBKhz2YJ
+
+
+Go into output/stylesheets/ and get the generated pygments.css file.
+
+Put it in stylesheets/.  Open the file and add .highlight before EVERY line.
+
+e.g. 
+	.highlight .hll { background-color: #ffffcc }
+	.highlight .c { color: #8f5902; font-style: italic } /* Comment */
+	.highlight .err { color: #a40000; border: 1px solid #ef2929 } /* Error */
+	
+	
+	
+	
+** to get math code to be in sans serif where possible. In each :math:`\frac{}{}` or .. math:: block, add \sf.  e.g. :math:`\sf \text{H}_2 \text{O}`
+
