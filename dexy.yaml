@@ -4,6 +4,7 @@ assets:
     - .html|jinja
     - .png
     - .gif
+    - .jpg
     - .jinja
 
 tex-assets:
