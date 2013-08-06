@@ -1,19 +1,168 @@
 {% import "macros/ork.jinja" as ork with context %}
-Exercise 2: More Stuff
-**********************
+
+Lecture 02: Data Description
+*******************************************************
+
+**Data** is the statistician's raw material – the numbers we use to interpret reality. All statistical problems involve either the collection, description, and analysis of data, or at least *thinking* about the collection, description, and analysis of data. 
+
+*Data description* tools are important because they help us to make sense of a heap of numbers, on the order of hundreds, thousands, millions, or more. [#]_ So how can we represent data in useful ways? How can we discover underlying patterns? How can we summarize a dataset's basic shape?  Lets take a look.
+
+Some data, from our friends at Penn State
+=========================================
+
+To learn about data description, it's handy to have some data. A long time ago, a professor at Penn State asked 92 students to self-report their body weight, in pounds.
+
+Here is the data:
+
+**Males**
+	140 145 160 190 155 165 150 190 195 138 160 155 153 145 170 175 175 170 180 135 170 157 130 185 190 155 170 155 215 150 145 155 155 150 155 150 180 160 135 160 130 155 150 148 155 150 140 180 190 145 150 164 140 142 136 123 155
+	
+**Females**
+	140 120 130 138 121 125 116 145 150 112 125 130 120 130 131 120 118 125 135 125 118 122 115 102 115 150 110 116 108 95 125 133 110 150 108
 
 
-- Why study descriptive statistics
-- Variables, terminology
-- Bar graphs: describing categorical data
+[[][][][][][]][][][ GRAPH OF WEIGHTS. SHOUWS MOUND ][[][[][]
 
-Histogram
-----------------
-- Describing one quantitative variable
-- How to draw a histogram
-- Units and density
 
-Measures of Position
-------------------------------
-- Percentiles: estimating from a histogram
-- Percentiles: more carefully, from data
+Take notice of a couple things: 
+
+- The data seems to form a mound.
+- A lot of the students rounded their weights to the nearest 5 pounds.
+
+
+Frequency Table and Histogram
+===================================
+
+We can summarize the data with a **frequency table**. Divide the number line into intervals and count the number of student weights within each interval. The **frequency** is the count in any given interval. The **relative frequency** is the proportion of weights in each interval. In other words, it's the frequency divided by the total number of students.
+
+
+[[]][[][]][][ freq dist table ][][][][][
+
+
+Frequency table guidelines:
+
+1. Use intervals of equal width. The lowest and highest intervals can be open. That is, the lowest interval may say "less than 97.5 pounds" and the highest interval may say "greater than 222.5 pounds". 
+#. Small data sets should only have a couple intervals. 5 is a good amount.
+#. Large data sets should have more intervals. Use your discretion.
+
+Frequency tables show how many data points are located within each interval. Graphing a frequency distribution table is called a **histogram**, which is a type of bar chart. Each bar in the histogram covers an interval and is centered at the midpoint. The bar's heigh is the number of data points in the interval.
+
+[][][][][]]][ histogram of data [][[][][][]][
+
+A histogram displays one quantitative variable. In this case, it is weight. Later on we'll see other types of graphs, some of which can show multiple variables. But don't worry about that right now. Lets stick with histograms.
+
+We can plot a **relative frequency histogram**.  It looks the same as the traditional histogram, except the **y-axis**, the **vertical scale**, is different.  The **x-axis**, the **horizontal scale**, is unchanged.
+
+[][][][] relative freq histo [][][][][]][[]
+
+
+Stem-and-Leaf Plots
+===========================
+
+Stem-and-leaf diagrams are handy for arranging and visualizing data if you don't have a computer available and are not very good at drawing.  A statistician, John Tukey, invented the plots as a quick way to summarize data without losing the original, individual data points. (Compare to the frequency distribution table, which summarized our student data but washed away any particular student's weight recording.) 
+
+To construct a stem-and-leaf of the weight data, make a column of numbers consisting of the weight data counted by tens. In other words, we leave off the last digit. If a data point was 135 pounds, we would add 13 to the column.
+
+=====	==	===========================================
+Stem 	:	Leaves
+=====	==	===========================================
+9    	:	
+10   	:	
+11   	:	
+12   	:	
+13   	:
+14   	:
+15   	:
+16   	:
+17   	:
+18   	:
+19   	:
+20   	:
+21   	:
+=====	== 	===========================================
+
+
+Next, add the final digit of each weight in the corresponding row.
+
+=====	==	===========================================
+Stem 	:	Leaves
+=====	==	===========================================
+9    	:	
+10   	:	
+11   	:	628
+12   	:	0155005
+13   	:	080015
+14   	:	05
+15   	:	0
+16   	:
+17   	:
+18   	:
+19   	:
+20   	:
+21   	:
+=====	== 	===========================================
+
+To understand how to read this, lets look in the Stem column, number 11. The 11 means that the weights in that row correspond to a weight of 11\_ pounds. Look to the right of the 11, in the Leaves column. There are three leaves: a 6, a 2, and an 8. These digits 'fill in' the gap in 11\_ pounds. When you drop the 6 into 11\_, it means 116 pounds.  Doing the same for the 2 and then the 8 gives us 112 pounds and 118 pounds, respectively.
+
+Look at stem 12. What are the corresponding weights? They all fit the pattern of "12\_", or "one hundred twenty some" pounds. The weights are:
+
+120, 121, 125, 125, 120, 120, 125
+
+I'll continue filling in the table with the rest of the weight data.
+
+=====	==	===========================================
+Stem 	:	Leaves
+=====	==	===========================================
+9    	:	5
+10   	:	288
+11   	:	628855060
+12   	:	01553005525
+13   	:	8500850600153
+14   	:	05505580502
+15   	:	5053705505505050500500
+16   	:	050004
+17   	:	055000
+18   	:	0500
+19   	:	00500
+20   	:	
+21   	:	5
+=====	== 	===========================================
+
+To complete the stem-and-leaf diagram, arrange the leaves in ascending order.
+
+=====	==	===========================================
+Stem 	:	Leaves
+=====	==	===========================================
+9    	:	5
+10   	:	288
+11   	:	002556688
+12   	:	00012355555
+13   	:	0000013555688
+14   	:	00002555558
+15   	:	0000000000355555555557
+16   	:	000045
+17   	:	000055
+18   	:	0005
+19   	:	000005
+20   	:	
+21   	:	5
+=====	== 	===========================================
+
+As you review the plot, it's pretty easy to detect the students' bias toward reporting their weights rounded to 0 or 5 pounds. (Unless these students only grow in 5 pound increments – there may be something in the water in Happy Valley!)
+
+A note on graphic display
+==========================
+
+Art and graphics are a critical part of science. One of the earliest pioneers of statistical visualizations is Florence Nightingale. She amassed data on British soldiers' deaths, both in hospitals and on the battlefield, during the Crimean War. What follows is a peculiar form of histogram. The radial axis indicates deaths. 
+
+
+|florencegraph|
+
+.. |florencegraph| image:: images/lecture02-florence-graph.jpg
+
+Her data collection and her powerful graphics directly improved hospital conditions and resulted in a lower death rate.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.. [#] The realm of millions and billions of datapoints is popularly known as *big data*. This is a burgeoning field enabled by advances in computer processing abilities and the exponential growth of data enabled by the Internet.
