@@ -51,7 +51,7 @@ latex-code:
 #          add-new-files: True
 #        }
 
-# learn-x-the-hard-way.rst|jinja|rst2html|calibre:
+# stat101-pdf.rst|jinja|rst2html|calibre:
 #     - code
 #     - assets
 #     - png-code
