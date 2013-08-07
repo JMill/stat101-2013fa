@@ -1,103 +1,144 @@
 {% import "macros/ork.jinja" as ork with context %}
-Lecture 01
-*******************
+Measures of Location - Mean and Median
+*******************************************
 
-Introduction to Statistics
+Summary Statistics
 ===============================
 
+It is time to venture into the world of formulas. Do not freak out. It's time to get simple measurements of the crudest characteristics of a set of data.
 
-What is statistics?
-~~~~~~~~~~~~~~~~~~~~~~
+Any set of measuremenst has two important properties:
 
-Statistics is the science of drawing conclusion from data.
+- The **central or typical value**, and
+- the **spread** about the value.
 
-It's about asking a question, gathering data related to the question, exploring the data, analysing the data, then drawing conclusions based on the data. Hopefully the data helps you to answer the original question.
+][[[] 2 diff histos ]]
 
-I call all of this the process of *statistical storytelling*. This course is the first step in becoming a data explorer, searching the unknown for information that you can share with others.  You will become an informed user of numerical information.
+A little notation
+=====================
+
+We can go far with a little notation. Lets say we are making a series of observations... :math:`n` of them, to be precise. [#]_ 
+
+Since we're making :math:`n` observations, we can write each individual observation as
+
+.. math::
+
+	x_1, x_2, x_3, \dots x_n
+
+You can pronounce these as "x-one, x-two...".
+
+Thus, :math:`n` is the total number of data points, and :math:`x_4` (lets say) is the value of the fourth data point. We can arrange this data in an **array**:
+
+============	===========	===========	===========	===========	===========
+observation 	1       	2       	3       	4       	5  
+============	===========	===========	===========	===========	===========
+data value  	:math:`x_1`	:math:`x_2`	:math:`x_3`	:math:`x_4`	:math:`x_5`
+============	===========	===========	===========	===========	===========
 
 
-Why study statistics?
-~~~~~~~~~~~~~~~~~~~~~~~
+A set of :math:`n = 7` data points makes organization easy. Suppose we are observing how many hours of exercise five people get in a week. We may have the following array:
 
-Each and every one of us has contributed to statistics. 
+============	===========	===========	===========	===========	===========
+observation 	1       	2       	3       	4       	5  
+============	===========	===========	===========	===========	===========
+data value  	5          	3          	7          	38         	7          
+============	===========	===========	===========	===========	===========
 
-* If you were ever born, your parents likely received a birth certificate from a medical organization. That organization tallied how many babies were born on a certain day in a certain geographic region, and report that to other medical organizations. This information contributes to the census, which is an important component for assessing a nation's overall health and well-being.
+Then :math:`x_1 = 5`, :math:`x_2 = 3`, :math:`x_3 = 7`, :math:`x_4 = 38` (yikes!), and :math:`x_5 = 7`.
 
-* If you were ever pulled over while driving and issued a speeding ticket, the police officer reported to his or her department that the total number of speeders for the day should be increased by 1. Recording the number of speeding tickets issued per day over the course of months or years, police departments can recommend where stoplights, speed bumps, or other speed-regulating tools should be placed for public safety.
-
-* If you use Facebook and ever Like anything, Facebook uses information about you to assemble a demographic about the sorts of people who Liked that particular content, to help make targeted advertising more effective and thus increasing Facebook's profit.
-
-Learning how statistics 'works' is increasingly important as our world invests more reliance on digital technologies, including computers and the Internet. We're awash with so much data -- Likes, tweets, click-through rates, births, deaths, campaign donations, :math:`\sf CO_2` emissions, football passing rates, Nielson T.V. ratings, religious conversion rates, government surveillance reports, and so much more. It's truly astounding what can be measured. And if it's measurable, statistics is critical for understanding what the measurements may be able to tell us.
-
-An understanding of statistics will help you make data-driven decisions and, importantly, how to spot if someone is accidentally misleading you or intentionally abusing statistics for his or her own gain.
+How do we figure out the "center" of this data?  There are several ways.
 
 
-Statistics... and math
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mean (or "average")
+=======================
 
-The biggest comment I hear is that statistics is a math course.  Statistics is not a math course.  However, statistics *uses* math, like most every other field of study. 
+The **mean** or average value is represented by :math:`\overline{x}` ("x-bar").  It is obtained by adding all the data and dividing by the number of observations.
 
-* Chemists use math. If I have three molecules of :math:`\sf H_2 O`, how many atoms of hydrogen do I have?
-* Sociologists use math. If it's estimated that 5% of high school students identify as 'goth', and there are 14.8 million public high school students in the United States [1]_, how many goths are in our public high schools?
-* A student working at McDonald's uses math. If I get paid $7/hour and I work 30 hours, how much do I make?
-
-Statistics uses mathematics to build tools, which, in turn, we use to slice and dice data to get a better understanding of something. We won't invest much time in understanding the ins and outs of complex formulas. If that's your thing, there is plenty of literature available on the web to tickle your fancy.
-
-The math we'll be using is mostly algebra. I'm here to help if you're struggling.
+.. math::
 	
+	\begin{split}
+		\overline{x} &= \frac{\text{sum of data}}{n} \\
+		&= \frac{x_1 + x_2 + \dots + x_n}{n}
+	\end{split}
 
-How this course is arranged
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+For our example,
 
-This course is divided into three units.
+.. math::
+	
+	\begin{split}
+	\overline{x} &= \frac{5+3+7+38+7}{5} \\
+	&= \frac{60}{5} \\
+	&= 12 \text{ hours}
+	\end{split}
 
-1. Data analysis
-#. Probability
-#. Inferential statistics
+A mathematical aside...
+-------------------------------
 
-Lets take a look at what questions we can answer after studying each unit, in reverse order.
+There is a shorthand for sequences like :math:`x_1 + x_2 + \dots + x_n`. It uses the Greek capital letter :math:`\Sigma` ("sigma") to indicate summation. For the sum :math:`x_1 + x_2 + \dots + x_n` we write :math:`\sum\limits_{i=1}^n x_i`, which is read as "the sum of :math:`x_i` as :math:`i` goes from 1 to :math:`n`." You'll see this used throughout statistics literature, so memorize it.
 
-**Unit 3. Inferential statistics**
+Now that we have seen strange symbols and equations, this is starting to look like a true statistics course.
 
-* How do scientists figure out whethe something is good for you?
-* How do polls make accurate predictions based on data from only a small percent of voters?
+Lets use our new knowledge.
 
-Inferential statistics is about making conclusions based on data from samples, using a knowledge of probability.
+Back to the mean
+----------------------
+The average, or mean, of a set of data :math:`x_i` is
+
+.. math::
+	
+	\overline{x} = \frac{\sum\limits_{i=1}^n x_i}{n} \text{ or, to simplify a bit, } \sum\limits_{i=1}^n \frac{x_i}{n}
+
+Think back to the previous lecture that talked about the weights of Penn State students. There were 92 students. Thus, the mean weight is :math:`\sum\limits_{i=1}^{92} \frac{x_i}{92} = \frac{13,354}{92} = 145.15 \text{ pounds.}`
+
+Median
+=========
+
+To borrow an analogy from Gonick's and Smith's `The Cartoon Guide To Statistics <http://www.amazon.com/Cartoon-Guide-Statistics-Larry-Gonick/dp/0062731025?tag=651998669-20>`_, the median of a data set is similar to a *median strip* that runs down the center of a paved road. You've seen the median before, when you learned that it serves double-duty as the *50th percentile.*
+
+To recap, if you have the following data:
+
+	3, 5, 7, 7, 38
+
+The median is ``7`` (the first one). It's the middlemost value. If the number of points is *even*, in which there is no exact middle value, then take the average of the two values closest to the middle.
+
+The median of 3, 5, 7, and 7 is....  :math:`\frac{5+7}{2} = 6.`
+
+Lets find the median of the student weight data. For the :math:`n = 92` student weights, the median can be found from the stem-and-leaf diagram. Since 92 is an even number, we're going to have to take the average of two vaules. Count to the 46th and 47th observations.
+
+=====	==	===========================================
+Stem 	:	Leaves
+=====	==	===========================================
+9    	:	5
+10   	:	288
+11   	:	002556688
+12   	:	00012355555
+13   	:	0000013555688
+14   	:	00002555 :math:`\textbf{55}` 8
+15   	:	0000000000355555555557
+16   	:	000045
+17   	:	000055
+18   	:	0005
+19   	:	000005
+20   	:	
+21   	:	5
+=====	== 	===========================================
+
+Perform the calculation:
+
+.. math::
+
+	\frac{x_{46} + x_{47}}{2} = \frac{145 + 145}{2} = 145 \text{ pounds}
 
 
-**Unit 2. Probability**
+Differences between mean and median
+==========================================
 
-* If my last four lotter tickets all lost, is the next one more likely to be a winning ticket?
-* What should we expect to happend "just by chance"?
+So we have two tools for measuring the center of data: *mean* and *median*. Each has advantages. For example, the median is not sensitive to **outliers**, which are extreme values that are not typical of the rest of the data. Suppose in our small exercise group (from earlier in this lecture), one person claims to exercise *200 hours* per week. Then our data are 3, 5, 7, 7, 38, 200. The median, ``7``, is unchanged, but the mean is now :math:`\overline{x} = 43.3`!
 
-Probability is about understanding and quantifying randomness and change.
-
-
-**Unit 1. Data analysis**
-
-* How do I make sense of a large dataset?
-
-Data analysis is about gathering, displaying, and summarizing data.
+Sometimes, it's enticing to use the mean, instead of median, to stretch the truth a bit. Actually, sometimes the mean can stretch the truth a lot. In 1984, The University of Virginia claimed that its Department of Rhetoric and Communications graduates' mean starting salary was $55,000 (and this was 30 years ago!). U.V. didn't mention that the mean was stretched high by one outstanding outlier, the salary of NBA center Ralph Sampson. His salary was not representive of the expected starting salary of speech graduates from the University of Virginia. The median salary was never published.
 
 
-Resources for this course
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-By now, you've probably noticed that there is no required deadtree book for this course. This is for several reasons:
+------------------------------------------------------------------------------------------------------------------------
 
-Primary reason: It's an experiment of your learning experience. (Your input throughout the course is appreciated.)
-Secondary reasons: 
-
-* There is a growing set of online resources available to you. The free, online-only book upon which this course most relies is *SticiGui* (strange title...), located at `www.stat.berkeley.edu/~stark/SticiGui/Text/toc.htm <http://www.stat.berkeley.edu/~stark/SticiGui/Text/toc.htm>`_. There will also be references to other materials, such as the book I'm writing, entitled `Learn Stats in 10,000 Hours <http://learnstats.org>`_ (equally strange title, but in a different way...). You will have early access to the book for this course (it's not done yet).
-* Your out-of-pocket expense is significantly reduced.
-
-Despite this course's focus on digital books, there are two dead-tree books I recommend you pick up through interlibrary loan or for purchase.
-
-* `How to Lie with Statistics <http://www.amazon.com/How-Lie-Statistics-Darrell-Huff/dp/0393310728?tag=651998669-20>`_, by Darrell Huff and Irving Geis.
-* `The Cartoon Guide to Statistics <http://www.amazon.com/Cartoon-Guide-Statistics-Larry-Gonick/dp/0062731025?tag=651998669-20>`_, by Larry Gonick and Woollcott Smith.
-
-These are classics and are not filled with the usual academic droll. Get them if you can.
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-.. [1] source: `National Center for Education Statistics. <http://nces.ed.gov/fastfacts/display.asp?id=372>`_
+.. [#] I am using :math:`n` as a variable, a *placeholder* for some specific number that we aren't worried about. (At least not yet.)

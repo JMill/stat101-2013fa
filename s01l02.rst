@@ -1,6 +1,6 @@
 {% import "macros/ork.jinja" as ork with context %}
 
-Lecture 02: Data Description
+Data Description
 *******************************************************
 
 **Data** is the statistician's raw material – the numbers we use to interpret reality. All statistical problems involve either the collection, description, and analysis of data, or at least *thinking* about the collection, description, and analysis of data. 
@@ -155,12 +155,13 @@ A note on graphic display
 
 Art and graphics are a critical part of science. One of the earliest pioneers of statistical visualizations is Florence Nightingale. She amassed data on British soldiers' deaths, both in hospitals and on the battlefield, during the Crimean War. What follows is a peculiar form of histogram. The radial axis indicates deaths. 
 
-
 |florencegraph|
 
 .. |florencegraph| image:: images/lecture02-florence-graph.jpg
+    :scale: 25 %
 
 Her data collection and her powerful graphics directly improved hospital conditions and resulted in a lower death rate.
+
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

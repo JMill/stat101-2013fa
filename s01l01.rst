@@ -1,9 +1,7 @@
 {% import "macros/ork.jinja" as ork with context %}
-Lecture 01
-*******************
-
 Introduction to Statistics
-===============================
+****************************
+
 
 
 What is statistics?

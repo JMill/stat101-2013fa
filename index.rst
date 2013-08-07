@@ -43,7 +43,14 @@ Measures of Spread (Variation)
 - Standard Deviation
 - Coefficient of Variation
 
-- `Lecture 1. Measures of Location <s02l01.html>`_
+Measures of Location
+
+- `Lecture 1. Mean and Median <s02l01.html>`_
+- `Lecture 2. Mode etc. <s02l02.html>`_
+
+Measures of Spread
+
+
 - `Lab <s02lab01.html>`_
 
 WEEK 3
