@@ -9,9 +9,6 @@ Mean/Average
 -----------------------
 
 Sum of all numbers divided by the number of numbers, for example: The Mean of 2, 3, 4, 6, 7: :math:`\frac{2+3+4+6+7}{5} = 4.4`
-
-.. math::
-	\frac{13}{5} = 12_t
 	
 Median
 -------------

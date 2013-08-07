@@ -157,8 +157,7 @@ Art and graphics are a critical part of science. One of the earliest pioneers of
 
 |florencegraph|
 
-.. |florencegraph| image:: images/lecture02-florence-graph.jpg
-    :scale: 25 %
+.. |florencegraph| image:: images/s01l02-florence-graph.jpg
 
 Her data collection and her powerful graphics directly improved hospital conditions and resulted in a lower death rate.
 

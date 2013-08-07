@@ -2,3 +2,14 @@
 Measures of Location - Mode and Markov Inequality
 **************************************************
 
+
+Markov Inequality
+=====================
+
+|markov-tail01|
+
+.. |markov-tail01| image:: images/s02l02-tailbound.png
+
+|markov-tail02|
+
+.. |markov-tail02| image:: images/s02l02-tailbound-markov.png

@@ -61,13 +61,16 @@ So lets try it again:
 
 	0, 2, 4, 7, 7, 12
 
-*Find the median.*
+*Find the median:*
+
 50% of the way into the list is :math:`\sf 0.5 * 6 = 3` places, so the median = ``4``. Compare with the "conventional" median of 5.5. They are not the same!
 
-*40th percentile*
+*40th percentile:*
+
 :math:`\sf 0.4 * 6 = 2.4`. Take the 3rd entry. 40th percentile = ``4``
 
-*Check*
+*Check:*
+
 Ensure that the 60th, 70th, and 80th percentiles all equal ``7``.
 
 
