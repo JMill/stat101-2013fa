@@ -11,10 +11,15 @@ Table Of Contents
 {% include "preface.rst" %}
 {% include "introduction.rst" %}
 
-{% include "l01.rst" %}
-{% include "l02.rst" %}
-{% include "l03.rst" %}
-{% include "lab01.rst" %}
+Week 1
+{% include "s01l01.rst" %}
+{% include "s01l02.rst" %}
+{% include "s01l03.rst" %}
+{% include "s01lab01.rst" %}
+
+Week 2
+{% include "s02l01.rst" %}
+{% include "s02lab01.rst" %}
 
 
 

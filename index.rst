@@ -16,10 +16,10 @@ Week 1
 --------------------
 Reading: `SticiGui, Chapter 3 - Statistics <http://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm>`_
 
-- `Lecture 1. Introduction to Statistics <l01.html>`_
-- `Lecture 2. Data Description. <l02.html>`_
-- `Lecture 3. Measures of Position. <l03.html>`_
-- `Lab 01 <lab01.html>`_
+- `Lecture 1. Introduction to Statistics <s01l01.html>`_
+- `Lecture 2. Data Description. <s01l02.html>`_
+- `Lecture 3. Measures of Position. <s01l03.html>`_
+- `Lab 01 <s01lab01.html>`_
 
 
 
@@ -42,6 +42,9 @@ Measures of Spread (Variation)
 - Variance
 - Standard Deviation
 - Coefficient of Variation
+
+- `Lecture 1. Measures of Location <s02l01.html>`_
+- `Lab <s02lab01.html>`_
 
 WEEK 3
 ==========
