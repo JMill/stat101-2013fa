@@ -1,0 +1,73 @@
+{% import "macros/ork.jinja" as ork with context %}
+
+Lecture 03: Measures of Position, with Percentiles
+*******************************************************
+
+Here is a list of data points:
+	
+	7, 2, 7, 4, 0 
+
+Arranged in increasing order:
+	
+	0, 2, 4, 7, 7
+
+The **median**, the middlemost data point, is 4.
+
+Here is a new list:
+
+	0, 2, 4, 7, 7, 12
+
+What is the median now?  It is somewhere between 4 and 7. So lets just take the **midpoint**, which is :math:`\sf\frac{4+7}{2} = 5.5`.
+
+
+What is a percentile?
+==============================
+
+A **percentile** is a numerical summary of quantitative data. Since that definition probably didn't clarify things for you, lets look at an example.
+
+We've all taken plenty of standardized tests, which rely on percentiles to tell you how well you performed on the test, relative to everyone else who took the same test.
+
+If you are placed in the 95th percentile of test scores, that means that:
+
+- 95% of students had lower scores than you...
+- ...and 5% of students had higher scores than you.
+
+There are three famous percentiles:
+
+- 25th percentile = **lower quartile**
+- 50th percentile = **median**
+- 75th percentile = **upper quartile**
+
+To revise the definition given at the beginning of this section, the :math:`p\text{th}` percentile of a list of numbers is the smallest number that is at least as large as :math:`p\%` of the list.
+
+Back to our list of data
+============================
+
+Find the 25th percentile of this list:
+
+	0, 2, 4, 7, 7, 12
+
+- ``0`` is the first data value in a group of six. So 0 is :math:`\sf \frac{1}{6} = 16.67\%` of the way into the list. That means 0 is at least as large as 16.67% of the list. But it is not at least as large as 25% of the list.
+- ``2`` is :math:`\sf \frac{2}{6} = 33.33\%` of the way into the list. It is definitely at least as large as 25% of the list. Therefore, the 25th percentile = ``2``.
+- ``4`` is :math:`\sf \frac{3}{6} = 50\%` of the way into the list. It is definitely at least as large as 25% of the list, *but it is not the smallest number with that property!* Recall that ``2`` = 25th percentile.
+
+The steps for determining the percentile are:
+
+1. Arrange list in order.
+#. Identify the place that is :math:`p\%` of the way from the bottom of the list.
+#. If that is a place on the list, use the number in that place. Otherwise, take the next number up.
+
+So lets try it again:
+
+	0, 2, 4, 7, 7, 12
+
+*Find the median.*
+50% of the way into the list is :math:`\sf 0.5 * 6 = 3` places, so the median = ``4``. Compare with the "conventional" median of 5.5. They are not the same!
+
+*40th percentile*
+:math:`\sf 0.4 * 6 = 2.4`. Take the 3rd entry. 40th percentile = ``4``
+
+*Check*
+Ensure that the 60th, 70th, and 80th percentiles all equal ``7``.
+
+
