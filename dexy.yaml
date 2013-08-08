@@ -14,6 +14,8 @@ html-code:
     - code/*.txt
 
 .rst|yamlargs|jinja|rst2html:
+    - .py|idio|pycon|pyg:
+        - pycon: { add-new-files: True } # for saving pyplot imgs
     - html-code
     - assets
     - rst2html:

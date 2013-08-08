@@ -12,7 +12,14 @@ Any set of measuremenst has two important properties:
 - The **central or typical value**, and
 - the **spread** about the value.
 
-][[[] 2 diff histos ]]
+|histwide|
+
+.. |histwide| image:: code/s02l01-img-hist-wide.png
+
+|histnarrow|
+
+.. |histnarrow| image:: code/s02l01-img-hist-narrow.png
+
 
 A little notation
 =====================

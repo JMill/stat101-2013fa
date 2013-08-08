@@ -21,8 +21,9 @@ Here is the data:
 	140 120 130 138 121 125 116 145 150 112 125 130 120 130 131 120 118 125 135 125 118 122 115 102 115 150 110 116 108 95 125 133 110 150 108
 
 
-[[][][][][][]][][][ GRAPH OF WEIGHTS. SHOUWS MOUND ][[][[][]
+|hist1|
 
+.. |hist1| image:: code/s01l02-img-weights-histo1.png
 
 Take notice of a couple things: 
 
@@ -36,7 +37,21 @@ Frequency Table and Histogram
 We can summarize the data with a **frequency table**. Divide the number line into intervals and count the number of student weights within each interval. The **frequency** is the count in any given interval. The **relative frequency** is the proportion of weights in each interval. In other words, it's the frequency divided by the total number of students.
 
 
-[[]][[][]][][ freq dist table ][][][][][
+==============	========	=========	==================
+Class Interval 	Midpoint	Frequency 	Relative Frequency
+==============	========	=========	==================
+87.5-102.4  	95      	2       	0.022
+102.5-117.5 	110     	9        	0.098
+117.5-132.4 	125     	19      	0.206
+132.5-147.4 	140     	17       	0.185
+147.5-162.4   	155     	27       	0.293
+162.5-177.4    	170     	8        	0.087
+177.5-192.4   	185     	8        	0.087
+192.5-207.5   	200     	1        	0.011
+207.5-222.4   	215     	1        	0.011
+--------------	--------	---------	------------------
+**Total**         	        **92**     	**1.000**  
+==============	========	=========	==================
 
 
 Frequency table guidelines:
@@ -47,13 +62,13 @@ Frequency table guidelines:
 
 Frequency tables show how many data points are located within each interval. Graphing a frequency distribution table is called a **histogram**, which is a type of bar chart. Each bar in the histogram covers an interval and is centered at the midpoint. The bar's heigh is the number of data points in the interval.
 
-[][][][][]]][ histogram of data [][[][][][]][
+|hist2|
+
+.. |hist2| image:: code/s01l02-img-weights-histo2.png
 
 A histogram displays one quantitative variable. In this case, it is weight. Later on we'll see other types of graphs, some of which can show multiple variables. But don't worry about that right now. Lets stick with histograms.
 
 We can plot a **relative frequency histogram**.  It looks the same as the traditional histogram, except the **y-axis**, the **vertical scale**, is different.  The **x-axis**, the **horizontal scale**, is unchanged.
-
-[][][][] relative freq histo [][][][][]][[]
 
 
 Stem-and-Leaf Plots
