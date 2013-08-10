@@ -1,0 +1,67 @@
+{% import "macros/ork.jinja" as ork with context %}
+Measures of Spread
+**************************************************
+
+
+Variance and its association with Standard Deviation
+=========================================================
+
+The standard measure of spread is the *standard deviation.* Unlike the inter-quartile range (IQR) [#]_, which is based on medians, the standard deviation measures the spread from the mean. You can think of it, roughly, as the average disntance of the data from the mean :math:`\overline{x}`.
+
+Variance
+~~~~~~~~~~~~
+
+However, we use the squares of the distances instead. That is, if the squared distance of point :math:`x_i` to :math:`\overline{x}` is :math:`(x_i - \overline{x})^2`, then 
+
+.. math::
+
+	\text{average squared distance} = \frac{1}{n} \sum\limits_{i=1}^n (x_i - \overline{x})^2
+
+For technical reasons, we use :math:`n-1` in the denominator rather than :math:`n`, and define the **sample variance** :math:`s^2` as
+
+.. math::
+
+	\text{variance} = s^2 = \frac{1}{n-1}\sum\limits_{i=1}^n(x_i-\overline{x})^2
+
+Example of variance
+~~~~~~~~~~~~~~~~~~~~~~
+
+For the data set :math:`\{3, 5, 7, 7, 38\}`, with the average :math:`\overline{x} = 12` and total number of data values :math:`n = 5` we calculate the variance:
+
+.. math::
+
+	\begin{split}
+	s^2 &= \frac{(3-12)^2 + (5-12)^2 + (7-12)^2 + (7-12)^2 + (38-12)^2}{(5-1)}\\
+	&= \frac{81+49+25+25+676}{4}\\
+	&= 214
+	\end{split}
+
+This is a large variance, and represents the wide spread of the data.
+
+We have a problem, though. A measure of spread should have the same *units* as the originnal data. In the example of stdent weights, the variance :math:`s^2` is measured in pounds *squared*. Ugh. The obvious solution is to take the square root of the variance, and so we do. Thus, we define **standard deviation**
+
+The standard deviation
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The standard deviation :math:`s` is the square root of the variance :math:`s^2`.
+
+.. math::
+
+	s = \sqrt{s^2} = \sqrt{\frac{1}{n-1}\sum\limits_{i=1}^n(x_i-\overline{x})^2}
+
+For the simple example dataset above, :math:`s = \sqrt{214} = \textbf{14.63}`
+
+Even for small datasets, calculating the needed arithmetic for standard deviation gets dull very quickly. That's why we've started to use computers to help us with the calculations. For this course, we'll be working with the Python programming language because it is user friendly and powerful.
+
+z-score
+=====================
+
+The mean :math:`\overline{x}` and standard deviation :math:`s` are very good for summarizing the propertise of fairly **symmetrical histograms without outliers**. In other words, histograms shaped like mounds.
+
+|mean-and-stdev|
+
+.. |mean-and-stdev| image:: images/s02l03-mean-and-stdev.png
+
+------------------------------------------------------------------------------------------------------------------------
+
+.. [#] You got your first taste of IQR in an exercise the previous week. For more, be sure to read the `relevant section <http://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm#spread>`_ in Chapter 4 of SticiGui.

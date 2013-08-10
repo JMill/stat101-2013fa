@@ -1,0 +1,61 @@
+{% import "macros/ork.jinja" as ork with context %}
+
+Box plots and IQR
+**************************************************
+
+Below is a dataset containing the chloride concentrations (in parts per million, ppm) measured in monitoring wells around a demolition debris landfill: 
+
+	64, 67, 72, 72, 77, 81, 86, 90, 94, 94, 95, 98, 100, 102, 106, 110, 110, 110, 117, 120, 123, 130, 136, 140, 140, 140, 141, 160, 173, 176, 280
+
+Plotted as a histogram: 
+
+|chloride-hist|
+
+.. |chloride-hist| image:: code/s02l04-img-chloride-hist.png
+
+Lowest value = 64
+
+Highest value = 280
+
+Range = highest - lowest = 280 - 64 = 216
+
+Plotted as a 'box and whiskers':
+
+|chloride-box|
+
+.. |chloride-box| image:: code/s02l04-img-chloride-box.png
+
+
+A box and whiskers plot (often shortened to 'box plot') helps to visualize a dateset's interquartile range, the IQR. 
+
+For our chloride data, the box plot visually shows some notable parts of the data:
+
+================	==================
+region	        	parts per million
+================	==================
+maximum				280
+upper quartile 		138
+median 				110
+lower quartile 		92
+minimum    			64
+================	==================
+
+Carefully check how each section of the box plot corresponds to a particular section of the data.
+
+There's one important caveat of this chlorine dataset. Can you pick which single sample value seems to be considerably distant from the rest of the samples? If you stare at the box plot (or histogram) long enough, you're bound to see it: the maximum value, 280 ppm, is a **flier**, also known as an **outlier**. This is a value that is far and away from the rest of the data. We don't know if, perhaps, the researcher who went out to the chlorinated monitoring well accidentally contaminated the sample, or mis-read the parts per million concentration, or even if the sample is completely accurate. All we can tell with this limited information is that the reading of 280 ppm is an outlier from the rest of the sample values, and should be suspect.
+
+Lets calculate the interquartile range, IQR, for the chlorine data.
+
+.. math::
+
+	\begin{split}
+	\text{interquartile range} &= \text{upper quartile} - \text{lower quartile}\\
+	&= 138 - 92\\
+	&= 46
+	\end{split}
+
+The **middle 50%** of the data are distributed over 46 ppm. In the box plot, the middle 50% of data are contained within the box.
+
+Box plots are great for assessing where the bulk of data resides and its overall spread.
+
+

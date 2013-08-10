@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<document xmlns="http://www.omnigroup.com/namespace/OmniGraphSketcher/v1" app-id="com.omnigroup.OmniGraphSketcher" app-version="5.0.110957" os-name="NSMACHOperatingSystem" os-version="10.7.5" machine-model="MacBookPro5,2">
+  <window>
+    <frame x="407" y="557" w="600" h="552"/>
+  </window>
+  <graph>
+    <canvas w="600" h="454" auto-whitespace="true">
+      <whitespace top="6" right="11.6953" bottom="27" left="6"/>
+      <edge-padding top="6" right="6" bottom="6" left="6"/>
+      <shadow strength="0"/>
+    </canvas>
+    <axis id="ax" dimension="x" min="-0.187849" max="9.81215" width="2" placement="origin" visible="true">
+      <ticks spacing="1" width-in="3" width-out="1" visible="true"/>
+      <grid spacing="1" width="1" extends-past-axis="false" visible="false">
+        <color r="0.9" g="0.9" b="0.9"/>
+      </grid>
+      <tick-labels distance="3" padding="14" visible="true">
+        <user-labels>
+          <label tick="10" idref="e308"/>
+          <label tick="2" idref="e16"/>
+          <label tick="3" idref="e17"/>
+          <label tick="minLabel" idref="e1"/>
+          <label tick="4" idref="e18"/>
+          <label tick="5" idref="e19"/>
+          <label tick="6" idref="e20"/>
+          <label tick="7" idref="e21"/>
+          <label tick="0" idref="e88"/>
+          <label tick="maxLabel" idref="e2"/>
+          <label tick="8" idref="e22"/>
+          <label tick="1" idref="e15"/>
+          <label tick="9" idref="e23"/>
+        </user-labels>
+      </tick-labels>
+      <title label="e3" distance="18" visible="false"/>
+    </axis>
+    <axis id="ay" dimension="y" min="0.415511" max="10.4155" width="2" placement="origin" visible="false">
+      <ticks spacing="1" width-in="3" width-out="1" visible="false"/>
+      <grid spacing="1" width="1" extends-past-axis="false" visible="false">
+        <color r="0.9" g="0.9" b="0.9"/>
+      </grid>
+      <tick-labels distance="5" padding="4" visible="false">
+        <user-labels>
+          <label tick="-2" idref="e100"/>
+          <label tick="2" idref="e25"/>
+          <label tick="10" idref="e385"/>
+          <label tick="3" idref="e26"/>
+          <label tick="minLabel" idref="e4"/>
+          <label tick="4" idref="e27"/>
+          <label tick="5" idref="e28"/>
+          <label tick="6" idref="e29"/>
+          <label tick="7" idref="e30"/>
+          <label tick="-1" idref="e73"/>
+          <label tick="0" idref="e53"/>
+          <label tick="maxLabel" idref="e5"/>
+          <label tick="8" idref="e31"/>
+          <label tick="1" idref="e24"/>
+          <label tick="9" idref="e32"/>
+        </user-labels>
+      </tick-labels>
+      <title label="e6" distance="18" visible="false"/>
+    </axis>
+    <vertex id="e1685" x="4" y="0.415511" width="2" label-placement="270">
+      <snapped-to>
+        <element idref="ax" param="4"/>
+      </snapped-to>
+    </vertex>
+    <vertex id="e2102" x="4" y="6" width="2"/>
+    <vertex id="e2258" x="5" y="0.415511" width="2">
+      <snapped-to>
+        <element idref="ax" param="5"/>
+      </snapped-to>
+    </vertex>
+    <vertex id="e2507" x="5" y="6" width="2"/>
+    <vertex id="e2917" x="6" y="0.415511" width="2" label-placement="270">
+      <snapped-to>
+        <element idref="ax" param="6"/>
+      </snapped-to>
+    </vertex>
+    <vertex id="e3080" x="6" y="4.29953" width="2"/>
+    <vertex id="e3512" x="5" y="4.29953" width="2"/>
+    <vertex id="e3570" x="7" y="0.415511" width="2" label-placement="270">
+      <snapped-to>
+        <element idref="ax" param="7"/>
+      </snapped-to>
+    </vertex>
+    <vertex id="e3765" x="7" y="3" width="2"/>
+    <vertex id="e3995" x="6" y="3" width="2"/>
+    <vertex id="e4234" x="8" y="0.415511" width="2">
+      <snapped-to>
+        <element idref="ax" param="8"/>
+      </snapped-to>
+    </vertex>
+    <vertex id="e4392" x="8" y="1.72028" width="2"/>
+    <vertex id="e4628" x="7" y="1.72028" width="2"/>
+    <vertex id="e4732" x="4" y="4.02494" width="2">
+      <snapped-to>
+        <element idref="e1471" param="0.646332"/>
+      </snapped-to>
+    </vertex>
+    <vertex id="e4914" x="3" y="4" width="2"/>
+    <vertex id="e5126" x="3" y="0.415511" width="2">
+      <snapped-to>
+        <element idref="ax" param="3"/>
+      </snapped-to>
+    </vertex>
+    <vertex id="e5187" x="2" y="0.415511" width="2">
+      <snapped-to>
+        <element idref="ax" param="2"/>
+      </snapped-to>
+    </vertex>
+    <vertex id="e5400" x="2" y="2.70021" width="2"/>
+    <vertex id="e5720" x="3" y="2.70021" width="2"/>
+    <vertex id="e5769" x="1" y="0.415511" width="2">
+      <snapped-to>
+        <element idref="ax" param="1"/>
+      </snapped-to>
+    </vertex>
+    <vertex id="e5961" x="1" y="1" width="2"/>
+    <vertex id="e6302" x="2" y="1" width="2"/>
+    <vertex id="e6355" x="8" y="1.32434" width="2">
+      <snapped-to>
+        <element idref="e4178" param="0.6965408"/>
+      </snapped-to>
+    </vertex>
+    <vertex id="e6519" x="9" y="1.32434" width="2"/>
+    <vertex id="e6604" x="9" y="0.415511" width="2" shape="circle">
+      <snapped-to>
+        <element idref="ax" param="9"/>
+      </snapped-to>
+    </vertex>
+    <vertex id="e7233" x="4.43282" y="0.320221" width="2"/>
+    <vertex id="e7299" x="4.63847" y="0.320221" width="2"/>
+    <vertex id="e8077" x="6.50372" y="0.270581" width="2"/>
+    <vertex id="e8082" x="6.70938" y="0.270581" width="2"/>
+    <vertex id="e8614" x="1.77749" y="0.2922" width="2"/>
+    <vertex id="e8619" x="1.98314" y="0.2922" width="2"/>
+    <line id="e1471" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e1685 e2102"/>
+    </line>
+    <line id="e2192" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e2258 e2507"/>
+    </line>
+    <line id="e2532" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e2102 e2507"/>
+    </line>
+    <line id="e2865" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e2917 e3080"/>
+    </line>
+    <line id="e3152" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e3080 e3512"/>
+    </line>
+    <line id="e3519" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e3570 e3765"/>
+    </line>
+    <line id="e3795" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e3765 e3995"/>
+    </line>
+    <line id="e4178" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e4234 e4392"/>
+    </line>
+    <line id="e4461" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e4392 e4628"/>
+    </line>
+    <line id="e4653" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e4732 e4914"/>
+    </line>
+    <line id="e4924" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e4914 e5126"/>
+    </line>
+    <line id="e5147" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e5187 e5400"/>
+    </line>
+    <line id="e5602" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e5400 e5720"/>
+    </line>
+    <line id="e5735" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e5769 e5961"/>
+    </line>
+    <line id="e6127" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e5961 e6302"/>
+    </line>
+    <line id="e6317" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e6355 e6519"/>
+    </line>
+    <line id="e6609" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e6519 e6604"/>
+    </line>
+    <line id="e6879" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e7233 e7299"/>
+    </line>
+    <line id="e8078" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e8077 e8082"/>
+    </line>
+    <line id="e8615" width="2" dash="solid" class="connect" method="curved">
+      <vertices ids="e8614 e8619"/>
+    </line>
+    <label id="e3" x="4.49846" y="-0.890902" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>X Axis</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e6" x="-0.496966" y="4.98204" rotation="90" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>Y Axis</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e7137" x="4.39664" y="-0.255161">
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-size">24.81847</value>
+            </style>
+            <lit>x</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e8083" x="6.46755" y="-0.304801">
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-size">24.81847</value>
+            </style>
+            <lit>x</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e8620" x="1.74131" y="-0.283182">
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-size">24.81847</value>
+            </style>
+            <lit>x</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e8964" x="2.0405" y="-0.259129">
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-size">24.81847</value>
+            </style>
+            <lit>- s</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e9058" x="6.80558" y="-0.274253">
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-size">24.81847</value>
+            </style>
+            <lit>+ s</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e308" x="9.85578" y="-0.257629" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>10</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e16" x="1.90219" y="-0.0833015">
+      <text>
+        <p>
+          <run>
+            <lit>   </lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e17" x="2.90219" y="-0.0833015">
+      <text>
+        <p>
+          <run>
+            <lit>   </lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e1" x="-0.285655" y="-0.0833015">
+      <text>
+        <p>
+          <run>
+            <lit>   </lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e18" x="3.90219" y="-0.0833015">
+      <text>
+        <p>
+          <run>
+            <lit>   </lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e19" x="4.90219" y="-0.0833015">
+      <text>
+        <p>
+          <run>
+            <lit>   </lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e20" x="5.90219" y="-0.0833015">
+      <text>
+        <p>
+          <run>
+            <lit>   </lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e21" x="6.90219" y="-0.0833015">
+      <text>
+        <p>
+          <run>
+            <lit>   </lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e88" x="9.39347" y="-0.522388">
+      <text>
+        <p>
+          <run>
+            <lit>0</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e2" x="9.71434" y="-0.0833015">
+      <text>
+        <p>
+          <run>
+            <lit>   </lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e22" x="7.90219" y="-0.0833015">
+      <text>
+        <p>
+          <run>
+            <lit>   </lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e15" x="0.902193" y="-0.0833015">
+      <text>
+        <p>
+          <run>
+            <lit>   </lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e23" x="8.90219" y="-0.0833015">
+      <text>
+        <p>
+          <run>
+            <lit>   </lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e100" x="-0.39693" y="-2.19901" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>-2</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e25" x="-0.255551" y="1.80815" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>2</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e385" x="-0.388476" y="9.80815" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>10</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e26" x="-0.255551" y="2.80815" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>3</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e4" x="-0.315825" y="0.534276" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>   </lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e27" x="-0.255551" y="3.80815" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>4</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e28" x="-0.322168" y="4.80815" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>   </lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e29" x="-0.255551" y="5.80815" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>6</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e30" x="-0.255551" y="6.80815" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>7</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e73" x="-0.410212" y="-1.19901" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>-1</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e53" x="-0.276275" y="-0.199005" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>0</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e5" x="-0.315825" y="10.2255" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>   </lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e31" x="-0.255551" y="7.80815" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>8</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e24" x="-0.255551" y="0.808154" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>1</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e32" x="-0.255551" y="8.80815" locked="false">
+      <text>
+        <p>
+          <run>
+            <lit>9</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <group id="e7648" elements="e7233 e7299 e6879 e7137"/>
+  </graph>
+</document>
