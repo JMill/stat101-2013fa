@@ -96,6 +96,17 @@ Despite this course's focus on digital books, there are two dead-tree books I re
 
 These are classics and are not filled with the usual academic droll. Get them if you can.
 
+Some of the lectures incorporate content from these books and others when possible.
+
+Working through the course
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Most content is based on the referenced readings in *SticiGui*. There may be additional written and/or video lectures each week to extend or to provide a different 'voice'. 
+
+The labs help you to explore statistical tools and to apply the material.
+
+This course is a work-in-progress, so your feedback is appreciated. The course's source code is available at `https://bitbucket.org/JMill/stat101 <https://bitbucket.org/JMill/stat101>`_. Feel free to submit a pull request!
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 .. [1] source: `National Center for Education Statistics. <http://nces.ed.gov/fastfacts/display.asp?id=372>`_

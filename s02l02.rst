@@ -71,3 +71,15 @@ There's a bit of a nuance, though.
 
 So, the proportion that are *more than 80* years old is at most the proportion that are *greater than or equal to 80* years old. And that proportion is at most :math:`\frac{1}{4}`, by Markov's inequality.
 
+Is the bound always useful?
+---------------------------------
+
+In a non-negative list, what proportion of entries are at least as large as half the average?
+
+:math:`k = 0.5`, so Markov says the proportion is at most :math:`\frac{1}{0.5} = 2 = 200\%`.  Hmm, that doesn't seem right.  
+
+Actually, this isn't a problem. Markov, rest his soul, is not wrong. When you think about it some more, every proportion in the world is at most 200%, since proportions are at most 100%.
+
+When :math:`k` is a fraction, Markov's bound is still correct as a bound. It's just not useful.
+
+**Markov's bound is most useful when** :math:`k` **is large, that is, when you're interested in entries that are quite far above average.**

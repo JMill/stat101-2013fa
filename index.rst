@@ -14,11 +14,14 @@ The content linked below has typos. Let me know when you find one.
 
 Week 1
 --------------------
-Reading: `SticiGui, Chapter 3 - Statistics <http://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm>`_
+Read: `SticiGui, Chapter 3 - Statistics <http://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm>`_
+
+Watch: `'Popularity' <http://www.youtube.com/watch?v=60voGAo4hqY>`_
+
 
 - `Lecture 1. Introduction to Statistics <s01l01.html>`_
-- `Lecture 2. Data Description. <s01l02.html>`_
-- `Lecture 3. Measures of Position. <s01l03.html>`_
+- `Lecture 2. Data Description <s01l02.html>`_
+- `Lecture 3. Measures of Position <s01l03.html>`_
 - `Lab 01 <s01lab01.html>`_
 
 
@@ -50,6 +53,12 @@ Measures of Location
 
 Measures of Spread
 
+- `Lecture 3. Standard deviation <s02l03.html>`_
+- `Lecture 4. Box Plots and IQR <s02l04.html>`_
+- `Lecture 5. Chebychev's Inequality <s02l05.html>`_
+
+[][[] do Chebychev [][]]
+[][][][] add C of Var to lab ][[][]]
 
 - `Lab <s02lab01.html>`_
 
