@@ -1,9 +1,9 @@
 {% import "macros/ork.jinja" as ork with context %}
-Measures of Location - Mode and Markov Inequality
+Measures of Location - Markov's Inequality
 **************************************************
 
 
-Markov Inequality
+Markov's Inequality
 =====================
 
 Here's a question:
@@ -13,6 +13,10 @@ Here's a question:
 We don't have enough information to say exactly what proportion are over 80 years old. We can't even give an approximation of the proportion.
 
 Yet, Andrey Markov (1856-1922) devised a simple bound.
+
+|markov|
+
+.. |markov| image:: images/s02l02-markov.jpg
 
 Here's a tail bound:
 

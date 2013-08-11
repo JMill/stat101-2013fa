@@ -1,7 +1,13 @@
 {% import "macros/ork.jinja" as ork with context %}
+
 Glossary
 *************
- 
+
+If there's anything you think should be added to this page, write it up and email me.
+
+In addition to the content on this page, be sure to view `SticiGui's extensive glossary <http://www.stat.berkeley.edu/~stark/SticiGui/Text/gloss.htm>`_. 
+
+
 Descriptive Statistics
 ================================
 

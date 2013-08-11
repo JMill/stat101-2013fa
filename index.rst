@@ -1,24 +1,30 @@
 {% import "macros/ork.jinja" as ork with context %}
 Statistics 101 course outline
 *********************************
+
 Jonathan B. Miller, Saint Francis University, 2013 Fall
 
 Last updated on {{ d['code/00----datetimestamp.py|py']}}
 
-The content linked below has typos. Let me know when you find one.
+The content linked below is guaranteed to have typos. Let me know when you find one so I can fix it.
+
+Overview
+----------------
 
 * Syllabus
 * Calendar
 * `Glossary <glossary.html>`_
 
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Data Analysis
+******************
 
 Week 1
 --------------------
 Read: `SticiGui, Chapter 3 - Statistics <http://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm>`_
 
-Watch: `'Popularity' <http://www.youtube.com/watch?v=60voGAo4hqY>`_
-
-
+- `Watch 'Popularity' <s01v01.html>`_
 - `Lecture 1. Introduction to Statistics <s01l01.html>`_
 - `Lecture 2. Data Description <s01l02.html>`_
 - `Lecture 3. Measures of Position <s01l03.html>`_
@@ -31,172 +37,270 @@ Week 2
 
 Reading: `Chapter 4 <http://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm>`_
 
-Measures of Location (Central Tendency)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- Median and mode
-- Average
-- Comparing and combining averages
-- The average and the histogram; the average and the median
-- Markov's inequality
-
-Measures of Spread (Variation)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- Range
-- Variance
-- Standard Deviation
-- Coefficient of Variation
-
 Measures of Location
 
 - `Lecture 1. Mean and Median <s02l01.html>`_
-- `Lecture 2. Mode etc. <s02l02.html>`_
+- `Lecture 2. Markov's Inequality <s02l02.html>`_
 
 Measures of Spread
 
-- `Lecture 3. Standard deviation <s02l03.html>`_
+- `Lecture 3. Variance, Standard Deviation, z scores <s02l03.html>`_
 - `Lecture 4. Box Plots and IQR <s02l04.html>`_
 - `Lecture 5. Chebychev's Inequality <s02l05.html>`_
 
-[][[] do Chebychev [][]]
 [][][][] add C of Var to lab ][[][]]
 
-- `Lab <s02lab01.html>`_
-
-WEEK 3
-==========
-
-Reading: Chapter 23
-
-Normal Curve
---------------------
-
-WEEK 4
-
-Chapters 5, 7-8
-
-Relation between two variables
-----------------------------------------------
-- Scatter Diagrams
-- Correlation Coefficient: Calculation and Properties
-- Using r, with caution
-
-Chapter 9
-
-Regression
-------------------------
-- Estimation; bivariate normal ('football shaped') scatter diagrams
-- Regression effect, Galton, and the regression fallacy
-- Equation of the regression line
-
-(Skip Chapter 10)
-
-Chapter 11
-
-Error in the regression estimate
--------------------------------------------------
-- Least squares: why the regression line and no other
-- The r.m.s. error of regression; calculations assuming bivariate normal scatter
-- How regression is commonly used; estimating an 'unknown true line'.
+- `Lab 02 <s02lab01.html>`_
 
 
 
+Week 3
+---------
 
-WEEK 5
+Read:
 
-Chapters 13, 17, 18, 19(?)
+
+* `Chapter 5: Multivariate Data and Scatterplots <http://www.stat.berkeley.edu/~stark/SticiGui/Text/scatterplots.htm>`_
+* `Lecture 1: Correlation <s03l01.html>`_
+* `Chapter 7: Correlation and Association <http://www.stat.berkeley.edu/~stark/SticiGui/Text/correlation.htm>`_
+* `Lecture 2: Regression <s03l02.html>`_
+* `Watch 'Looking at Data and Scatters' <s02v01.html>`_
+* `Chapter 9: Regression <http://www.stat.berkeley.edu/~stark/SticiGui/Text/regression.htm>`_
+
+Exercise Set 04:
+Bluman 10-1, 10-2, 10-3
+
+[]][]][ add Loading data > Scatter plots and Regression  to lab]
+http://stackoverflow.com/questions/6148207/linear-regression-with-matplotlib
+http://www2.warwick.ac.uk/fac/sci/moac/people/students/peter_cock/python/lin_reg/
+http://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.linregress.html
+
+- `Lab 03 <s03lab01.html>`_ 
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+Welcome to Probability-Land.
+
+Week 4
+---------
+
+Read:
+
+* `Chapter 13: The Meaning of Probability: Theories of Probability <http://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityPhilosophy.htm>`_
+* `Chapter 17: Probability: Axioms and Fundaments <http://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityAxioms.htm>`_
+* `Chapter 18: The 'Let's Make a Deal' (Monty Hall) Problem <http://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHall.htm>`_
+* ????? `Chapter 19: Probability Meets Data <http://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHallTest.htm>`_
+
 
 Two fundamental rules
-------------------------------------
+========================
+
+(Cartoon pp28-45)
+
 - What is probability?
 - Addition rule
 - Multiplication rule
 - Problem-solving techniques
 - Conditional or unconditional
 - Lets Make A Deal
-- Bayes' Rule
+- Bayes? (Cartoon pp46-50)
 
-WEEK 6
+Exercise Set 05:
+Bluman Ch 4
 
-Chapter 20
+Lab:
+Intro to Simulation. Basic prob. if probability at. Coin flipping. 
+
+
+Week 5
+---------
+
+Read: 
+
+* `Chapter 20: Random Variables and discrete Distributions <http://www.stat.berkeley.edu/~stark/SticiGui/Text/randomVariables.htm>`_
+* `Chapter 22: Standard Error <http://www.stat.berkeley.edu/~stark/SticiGui/Text/standardError.htm>`_
 
 Random sampling with and without replacement
-------------------------------------------------------------------------
+===============================================
+
+(Maybe Cartoon ch4, pp53-72)
 - Independence
 - Sampling with replacement: the binomial formula
 - Sampling without replacement: the hypergeometric formula
 
-Chapter 22
-
 The law of averages (large numbers), and expected values
-------------------------------------------------------------------------
+===========================================================
+
 - Not the law of averages
 - The law of averages
 - The expected value of a random sum
 - The expected value of a random average
 
-WEEK 7
+Exercise Set 06:
+Bluman Ch 5
+Bluman 10-3 p570
+Bluman 4-1 p193
+Law of averages stuff?
 
-Chapter 23, cont'd
+
+Computation:
+More sim. Virus modeling lite? (Replacement and without?
+
+
+Week 6
+---------
+
+Reading: `Chapter 23: The Normal Curve, the Central Limit Theorem, and Markov's and Chebychev's Inequalities for Random Variables <http://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm>`_ [#]_
+
+Normal Curve
+================
+
+- Normal Distribution (for empirical rule, Cartoon p25) 
+- Central Limit Theorem
+- Normal Approx to the Binomial Distribution
+
+Exercise Set 03:
+
+- Interpreting normals
+- describing with Week 02 tools
+
+Bluman Ch6
+
+Lab ??
+
+
+Week 7
+---------
+
+{Mid-Term Exam, covering Weeks 1-6}
+
+Read: `Chapter 23 <http://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm>`_ (continued)
+
+(Maybe Cartoon ch5 pp73-88)
 
 Central Limit Theorem
-------------------------------------
+=========================
+
 - Standard error of a random sum
 - Probabilities for the sum of a large sample
-- Central Limit Theorem
+- Central Limit Theorem (Cartoon pp106)
 - Scope of the normal approximation
+
+Exercise Set 7:
+Bluman 6-3 p331
+
+Lab:
+???
 
 ------------------------------------------------------------------------------------------------------------------------
 
-WEEK 8
+It's time for Inferential Statistics.
 
-Chapter 26
+Week 8
+---------
+
+Read `Chapter 26: Confidence Intervals <http://www.stat.berkeley.edu/~stark/SticiGui/Text/confidenceIntervals.htm>`_
 
 Estimating unknown parameters
-------------------------------------------------
+===============================
+
+( for confidence intervals, Cartoon ch7, pp111-136)
 - Random samples
 - Estimating population averages and percents
 - Approximate confidence interval
 - Interpreting confidence intervals
 
-WEEK 9
+Exercise Set 8:
+Bluman Ch 7
 
-Chapter 27
+Lab:
+Sampling types? 
+If needed, Cartoon ch6, pp89-105
+
+Week 9
+---------
+
+Read: `Chapter 27: Hypothesis Testing: Does Chance Explain the Results? <http://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm>`_
 
 Testing Statistical Hypotheses
-------------------------------------------------
-- Testing hypotheses: terminology
+==================================
+
+(Cartoon ch8 pp137-179) (Cartoon pp207)
+- Testing hypotheses: terminology 
 - Tests for a population proportion
 - Significance level and P-value
 - One tail or two?
 
-WEEK 10
 
-Chapter 30
+Exercise Set 9:
+Bluman Ch 8
+
+Lab:
+World Series sim. P-value
+Vinay 12.4 p170. 
+
+
+Week 10
+---------
+
+Read: `Chapter 30: Approximate Hypothesis Tests: The z Test and the t Test <http://www.stat.berkeley.edu/~stark/SticiGui/Text/zTest.htm>`_
 
 One-sample and two-sample tests
-------------------------------------------------
+===================================
+
 - z-test for a population mean
 - t-test for a population mean
 - Testing for the difference between means
 - Testing for the difference between proportions
 
-WEEK 11
+Exercise Set 10:
 
-Chapter 30, cont'd
+Lab:
+???
+(Show how to find data for project? Creating tumblr)
+
+
+Week 11
+---------
+
+Read: `Chapter 30 <http://www.stat.berkeley.edu/~stark/SticiGui/Text/zTest.htm>`_ (continued)
 
 Dependent samples
-------------------------------------
+=======================
+
 - Paired samples: parametric analysis
 - Paired samples: nonparametric analysis
 - Randomized experiments: method
 - Randomized experiments: justification
 
-WEEK 12
+Exercise Set 11:
 
-Chapter 31
+Lab:
+???
+(Project stuff?)
+
+
+Week 12
+---------
+
+Read: `Chapter 31: The Multinomial Distribution and the Chi-Squared Test for Goodness of Fit <http://www.stat.berkeley.edu/~stark/SticiGui/Text/chiSquare.htm>`_
 
 Window to a wider world
-------------------------------------
+=============================
+
 - Not everything's normal: a chi-squared test
 - How Fisher used the chi-squared test
 - Chi-squared test for independence
+
+(General future directions. Cartoon ch11 pp211-218)
+
+Exercise Set 12:
+
+Lab:
+(More project stuff? How to write up and publish results )
+
+----------------------------------------------------------------------------------------------------------------------------
+
+.. [#] The textbook's author sure isn't afraid of long, jargon-filled chapter titles, is he? ;)
