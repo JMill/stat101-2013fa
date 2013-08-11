@@ -1,0 +1,12 @@
+{% import "macros/ork.jinja" as ork with context %}
+
+Lab
+*************************************
+
+- `Exercise 8: Making a Chart <http://www.jmillville.com/project/learnstats/ex8.html>`_
+- `Exercise 9: Rowers and Coxswains <http://www.jmillville.com/project/learnstats/ex9.html>`_
+
+There is nothing to turn in for this lab. 
+
+
+
