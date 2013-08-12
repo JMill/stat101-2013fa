@@ -57,25 +57,24 @@ Measures of Spread
 Week 3
 ---------
 
-Read:
-
+Scatter plots
 
 * `Chapter 5: Multivariate Data and Scatterplots <http://www.stat.berkeley.edu/~stark/SticiGui/Text/scatterplots.htm>`_
+
+Correlation
+
 * `Lecture 1: Correlation <s03l01.html>`_
 * `Chapter 7: Correlation and Association <http://www.stat.berkeley.edu/~stark/SticiGui/Text/correlation.htm>`_
+
+Regression
+
 * `Lecture 2: Regression <s03l02.html>`_
 * `Watch 'Looking at Data and Scatters' <s02v01.html>`_
 * `Chapter 9: Regression <http://www.stat.berkeley.edu/~stark/SticiGui/Text/regression.htm>`_
 
-Exercise Set 04:
-Bluman 10-1, 10-2, 10-3
+Lab
 
-[]][]][ add Loading data > Scatter plots and Regression  to lab]
-http://stackoverflow.com/questions/6148207/linear-regression-with-matplotlib
-http://www2.warwick.ac.uk/fac/sci/moac/people/students/peter_cock/python/lin_reg/
-http://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.linregress.html
-
-- `Lab 03 <s03lab01.html>`_ 
+* `Lab 03 <s03lab01.html>`_ 
 
 
 
