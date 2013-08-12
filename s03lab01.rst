@@ -3,10 +3,33 @@
 Lab
 *************************************
 
+First, work through these exercises:
+
 - `Exercise 8: Making a Chart <http://www.jmillville.com/project/learnstats/ex8.html>`_
 - `Exercise 9: Rowers and Coxswains <http://www.jmillville.com/project/learnstats/ex9.html>`_
 
+Next, you will complete the exercises below. These will show you how to calculate and plot regression equations and the correlation coefficien, :math:`r`.
+
+1. calculating the regression equation and correlation coefficient
+#. making a scatter plot
+#. making a scatter plot, including the regression line.
+#. making a scatter plot w/ regression line and labels
+
 There is nothing to turn in for this lab. 
+
+Calculating the regression equation and :math:`r`
+=======================================================
+
+Create a new empty file in Canopy. Then type the following:
+
+{{ ork.code('code/s03lab01-correlation-regression-calc.py|pyg') }}
+
+Save the file as *lab03-correlation_regression.py* and run it.
+
+You should see the following::
+
+	{{ d['code/s03lab01-correlation-regression-calc.py|py']|indent(4) }}
+
 
 
 
