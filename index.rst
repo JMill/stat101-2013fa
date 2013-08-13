@@ -22,12 +22,15 @@ Data Analysis
 
 Week 1
 --------------------
-Read: `SticiGui, Chapter 3 - Statistics <http://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm>`_
 
 - `Watch 'Popularity' <s01v01.html>`_
 - `Lecture 1. Introduction to Statistics <s01l01.html>`_
 - `Lecture 2. Data Description <s01l02.html>`_
 - `Lecture 3. Measures of Position <s01l03.html>`_
+- `SticiGui, Chapter 3 - Statistics <http://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm>`_
+
+Lab
+
 - `Lab 01 <s01lab01.html>`_
 
 
@@ -35,10 +38,9 @@ Read: `SticiGui, Chapter 3 - Statistics <http://www.stat.berkeley.edu/~stark/Sti
 Week 2
 -----------
 
-Reading: `Chapter 4 <http://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm>`_
-
 Measures of Location
 
+- `SticiGui, Chapter 4 <http://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm>`_
 - `Lecture 1. Mean and Median <s02l01.html>`_
 - `Lecture 2. Markov's Inequality <s02l02.html>`_
 
@@ -47,6 +49,9 @@ Measures of Spread
 - `Lecture 3. Variance, Standard Deviation, z scores <s02l03.html>`_
 - `Lecture 4. Box Plots and IQR <s02l04.html>`_
 - `Lecture 5. Chebychev's Inequality <s02l05.html>`_
+
+
+Lab
 
 [][][][] add C of Var to lab ][[][]]
 
@@ -59,18 +64,18 @@ Week 3
 
 Scatter plots
 
-* `Chapter 5: Multivariate Data and Scatterplots <http://www.stat.berkeley.edu/~stark/SticiGui/Text/scatterplots.htm>`_
+* `SticiGui, Chapter 5: Multivariate Data and Scatterplots <http://www.stat.berkeley.edu/~stark/SticiGui/Text/scatterplots.htm>`_
 
 Correlation
 
 * `Lecture 1: Correlation <s03l01.html>`_
-* `Chapter 7: Correlation and Association <http://www.stat.berkeley.edu/~stark/SticiGui/Text/correlation.htm>`_
+* `SticiGui, Chapter 7: Correlation and Association <http://www.stat.berkeley.edu/~stark/SticiGui/Text/correlation.htm>`_
 
 Regression
 
 * `Lecture 2: Regression <s03l02.html>`_
 * `Watch 'Looking at Data and Scatters' <s02v01.html>`_
-* `Chapter 9: Regression <http://www.stat.berkeley.edu/~stark/SticiGui/Text/regression.htm>`_
+* `SticiGui, Chapter 9: Regression <http://www.stat.berkeley.edu/~stark/SticiGui/Text/regression.htm>`_
 
 Lab
 
@@ -87,10 +92,10 @@ Week 4
 
 Read:
 
-* `Chapter 13: The Meaning of Probability: Theories of Probability <http://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityPhilosophy.htm>`_
-* `Chapter 17: Probability: Axioms and Fundaments <http://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityAxioms.htm>`_
-* `Chapter 18: The 'Let's Make a Deal' (Monty Hall) Problem <http://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHall.htm>`_
-* ????? `Chapter 19: Probability Meets Data <http://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHallTest.htm>`_
+* `SticiGui, Chapter 13: The Meaning of Probability: Theories of Probability <http://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityPhilosophy.htm>`_
+* `SticiGui, Chapter 17: Probability: Axioms and Fundaments <http://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityAxioms.htm>`_
+* `SticiGui, Chapter 18: The 'Let's Make a Deal' (Monty Hall) Problem <http://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHall.htm>`_
+* ????? `SticiGui, Chapter 19: Probability Meets Data <http://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHallTest.htm>`_
 
 
 Two fundamental rules
