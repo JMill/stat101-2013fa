@@ -1,4 +1,294 @@
 {% import "macros/ork.jinja" as ork with context %}
+
+Statistics 101 course outline
+*********************************
+
+Jonathan B. Miller, Saint Francis University, 2013 Fall
+
+The content linked below is guaranteed to have typos. Let me know when you find one so I can fix it.
+
+- `Glossary <glossary.html>`_
+- `Watch Stat 101 introduction <s00v01.html>`_
+
+----
+
+Data Analysis
+******************
+
+Week 1
+--------------------
+
+- `Watch 'Popularity' <s01v01.html>`_
+- `Lecture 1. Introduction to Statistics <s01l01.html>`_
+- `Lecture 2. Data Description <s01l02.html>`_
+- `Lecture 3. Measures of Position <s01l03.html>`_
+- `SticiGui, Chapter 3 - Statistics <http://www.stat.berkeley.edu/~stark/SticiGui/Text/histograms.htm>`_
+
+Lab
+
+- `Lab 01 <s01lab.html>`_
+
+PSet
+
+- `PSet 01 <s01pset.html>`_
+
+
+
+Week 2
+-----------
+
+Measures of Location
+
+- `SticiGui, Chapter 4 <http://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm>`_
+- `Lecture 1. Mean and Median <s02l01.html>`_
+- `Lecture 2. Markov's Inequality <s02l02.html>`_
+
+Measures of Spread
+
+- `Lecture 3. Variance, Standard Deviation, z scores <s02l03.html>`_
+- `Lecture 4. Box Plots and IQR <s02l04.html>`_
+- `Lecture 5. Chebychev's Inequality <s02l05.html>`_
+- `Lecture 6. Coefficient of Variation <s02l06.html>`_
+
+
+Lab
+
+- `Lab 02 <s02lab.html>`_
+
+PSet
+
+- `PSet 02 <s02pset.html>`_
+
+
+
+Week 3
+---------
+
+Scatter plots
+
+* `SticiGui, Chapter 5: Multivariate Data and Scatterplots <http://www.stat.berkeley.edu/~stark/SticiGui/Text/scatterplots.htm>`_
+
+Correlation
+
+* `Lecture 1: Correlation <s03l01.html>`_
+* `SticiGui, Chapter 7: Correlation and Association <http://www.stat.berkeley.edu/~stark/SticiGui/Text/correlation.htm>`_
+
+Regression
+
+* `Lecture 2: Regression <s03l02.html>`_
+* `Watch 'Looking at Data and Scatters' <s02v01.html>`_
+* `SticiGui, Chapter 9: Regression <http://www.stat.berkeley.edu/~stark/SticiGui/Text/regression.htm>`_
+
+Lab
+
+* `Lab 03 <s03lab.html>`_ 
+
+PSet
+
+- `PSet 03 <s03pset.html>`_
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+Welcome to Probability-Land.
+
+Week 4
+---------
+
+Watch: 
+
+[][]][lecture video: udacity notes- Probability and Cond'l Probability.[]][][]
+
+Read:
+
+* `SticiGui, Chapter 13: The Meaning of Probability: Theories of Probability <http://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityPhilosophy.htm>`_
+* `SticiGui, Chapter 17: Probability: Axioms and Fundaments <http://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityAxioms.htm>`_
+* `SticiGui, Chapter 18: The 'Let's Make a Deal' (Monty Hall) Problem <http://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHall.htm>`_
+* ????? `SticiGui, Chapter 19: Probability Meets Data <http://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHallTest.htm>`_
+
+
+Two fundamental rules
+========================
+
+(Cartoon pp28-45)
+
+- What is probability?
+- Addition rule
+- Multiplication rule
+- Problem-solving techniques
+- Conditional or unconditional
+- Lets Make A Deal (make video on this, skip the chapter on it?)
+- Bayes? (Cartoon pp46-50)
+
+.. raw:: html
+
+	<iframe width="560" height="315" src="http://www.youtube.com/embed/9vRUxbzJZ9Y?rel=0" frameborder="0" allowfullscreen></iframe>
+
+Exercise Set 05:
+
+Bluman Ch 4
+
+Lab:
+
+- `Lab 04 <s04lab.html>`_
+
+Intro to Simulation. Basic prob. if probability at. Coin flipping. 
+
+
+Week 5
+---------
+
+Read: 
+
+* `Chapter 20: Random Variables and discrete Distributions <http://www.stat.berkeley.edu/~stark/SticiGui/Text/randomVariables.htm>`_
+* `Chapter 22: Standard Error <http://www.stat.berkeley.edu/~stark/SticiGui/Text/standardError.htm>`_
+
+Random sampling with and without replacement
+===============================================
+
+(Maybe Cartoon ch4, pp53-72)
+- Independence
+- Sampling with replacement: the binomial formula
+- Sampling without replacement: the hypergeometric formula
+
+The law of averages (large numbers), and expected values
+===========================================================
+
+- Not the law of averages
+- The law of averages
+- The expected value of a random sum
+- The expected value of a random average
+
+Exercise Set 06:
+Bluman Ch 5
+Bluman 10-3 p570
+Bluman 4-1 p193
+Law of averages stuff?
+
+
+Computation:
+More sim. Virus modeling lite? (Replacement and without?
+
+
+Week 6
+---------
+
+Reading: `Chapter 23: The Normal Curve, the Central Limit Theorem, and Markov's and Chebychev's Inequalities for Random Variables <http://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm>`_ [#]_
+
+Normal Curve
+================
+
+- Normal Distribution (for empirical rule, Cartoon p25) 
+- Central Limit Theorem
+- Normal Approx to the Binomial Distribution
+
+Exercise Set 03:
+
+- Interpreting normals
+- describing with Week 02 tools
+
+Bluman Ch6
+
+Lab ??
+
+
+Week 7
+---------
+
+{Mid-Term Exam, covering Weeks 1-6}
+
+Read: `Chapter 23 <http://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm>`_ (continued)
+
+(Maybe Cartoon ch5 pp73-88)
+
+Central Limit Theorem
+=========================
+
+- Standard error of a random sum
+- Probabilities for the sum of a large sample
+- Central Limit Theorem (Cartoon pp106)
+- Scope of the normal approximation
+
+Exercise Set 7:
+Bluman 6-3 p331
+
+Lab:
+???
+
+------------------------------------------------------------------------------------------------------------------------
+
+It's time for Inferential Statistics.
+
+Week 8
+---------
+
+Read `Chapter 26: Confidence Intervals <http://www.stat.berkeley.edu/~stark/SticiGui/Text/confidenceIntervals.htm>`_
+
+Estimating unknown parameters
+===============================
+
+( for confidence intervals, Cartoon ch7, pp111-136)
+- Random samples
+- Estimating population averages and percents
+- Approximate confidence interval
+- Interpreting confidence intervals
+
+Exercise Set 8:
+Bluman Ch 7
+
+Lab:
+Sampling types? 
+If needed, Cartoon ch6, pp89-105
+
+Week 9
+---------
+
+Read: `Chapter 27: Hypothesis Testing: Does Chance Explain the Results? <http://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm>`_
+
+Testing Statistical Hypotheses
+==================================
+
+(Cartoon ch8 pp137-179) (Cartoon pp207)
+- Testing hypotheses: terminology 
+- Tests for a population proportion
+- Significance level and P-value
+- One tail or two?
+
+
+Exercise Set 9:
+Bluman Ch 8
+
+Lab:
+World Series sim. P-value
+Vinay 12.4 p170. 
+
+
+Week 10
+---------
+
+Read: `Chapter 30: Approximate Hypothesis Tests: The z Test and the t Test <http://www.stat.berkeley.edu/~stark/SticiGui/Text/zTest.htm>`_
+
+One-sample and two-sample tests
+===================================
+
+- z-test for a population mean
+- t-test for a population mean
+- Testing for the difference between means
+- Testing for the difference between proportions
+
+Exercise Set 10:
+
+Lab:
+???
+(Show how to find data for project? Creating tumblr)
+
+
+Week 11
+---------
+
+Read: `Chapter 30 <http://www.stat.berkeley.edu/~stark/SticiGui/Text/zTest.htm>`_ (continued)
+{% import "macros/ork.jinja" as ork with context %}
+
 Statistics 101 course outline
 *********************************
 
@@ -8,14 +298,10 @@ Last updated on {{ d['code/00----datetimestamp.py|py']}}
 
 The content linked below is guaranteed to have typos. Let me know when you find one so I can fix it.
 
-Overview
-----------------
+- `Glossary <glossary.html>`_
+- `Watch Stat 101 introduction <s00v01.html>`_
 
-* Syllabus
-* Calendar
-* `Glossary <glossary.html>`_
-
---------------------------------------------------------------------------------------------------------------------------------------
+----
 
 Data Analysis
 ******************
@@ -32,6 +318,10 @@ Week 1
 Lab
 
 - `Lab 01 <s01lab01.html>`_
+
+PSet
+
+- `PSet 01 <s01pset01.html>`_
 
 
 
@@ -53,10 +343,11 @@ Measures of Spread
 
 Lab
 
-[][][][] add C of Var to lab ][[][]]
-
 - `Lab 02 <s02lab01.html>`_
 
+PSet
+
+- `PSet 02 <s02pset02.html>`_
 
 
 Week 3
@@ -81,7 +372,9 @@ Lab
 
 * `Lab 03 <s03lab01.html>`_ 
 
+PSet
 
+[][][ PSet ][][][]
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -273,6 +566,43 @@ Week 11
 
 Read: `Chapter 30 <http://www.stat.berkeley.edu/~stark/SticiGui/Text/zTest.htm>`_ (continued)
 
+Dependent samples
+=======================
+
+- Paired samples: parametric analysis
+- Paired samples: nonparametric analysis
+- Randomized experiments: method
+- Randomized experiments: justification
+
+Exercise Set 11:
+
+Lab:
+???
+(Project stuff?)
+
+
+Week 12
+---------
+
+Read: `Chapter 31: The Multinomial Distribution and the Chi-Squared Test for Goodness of Fit <http://www.stat.berkeley.edu/~stark/SticiGui/Text/chiSquare.htm>`_
+
+Window to a wider world
+=============================
+
+- Not everything's normal: a chi-squared test
+- How Fisher used the chi-squared test
+- Chi-squared test for independence
+
+(General future directions. Cartoon ch11 pp211-218)
+
+Exercise Set 12:
+
+Lab:
+(More project stuff? How to write up and publish results )
+
+----------------------------------------------------------------------------------------------------------------------------
+
+.. [#] The textbook's author sure isn't afraid of long, jargon-filled chapter titles, is he? ;)
 Dependent samples
 =======================
 
