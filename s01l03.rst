@@ -71,6 +71,6 @@ So lets try it again:
 
 *Check:*
 
-Ensure that the 60th, 70th, and 80th percentiles all equal ``7``.
+Ensure that the 60th, 70th, and 80th percentiles all equal to ``7``.
 
 
