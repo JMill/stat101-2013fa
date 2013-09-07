@@ -119,32 +119,57 @@ Computing :math:`r`
 
 :math:`r` isn't something you're going to want to calculate by hand very often. Python can calculate :math:`r`, as can Excel and other software packages.  
 
-To calculate the correlation coeffficient between two sets of numers, you would perform the following steps, each of which is illustrated by use of the data on heights and weights for 15 hypothetical students in the table below.
+To calculate the correlation coefficient between two sets of numbers, you would perform the following steps, each of which is illustrated by use of the data on heights and weights for 15 hypothetical students in the table below.
 
 1. Convert the height of each student to standard units: :math:`\frac{(\text{height} - \text{mean})}{\text{standard deviation}}`
 #. Convert the weight of each student to standrd units: :math:`\frac{\text{weight} - \text{mean}}{\text{standard deviation}}`
-#. Calculate the product for each student of :math:`\text{weight in standard units} \times \text{height in standard units}`. You should see that this numebr will be largest in absolute value when a student's height and weight are both relatively far from the mean.
+#. Calculate the product for each student of :math:`\text{weight in standard units} \times \text{height in standard units}`. You should see that this number will be largest in absolute value when a student's height and weight are both relatively far from the mean.
 #. The correlation coefficient is the sum of the products calculated above divided by the number of observations. (15 in this case.)
 
-The correlation between heigh and weight for this group of students is 0.83. Given that the correlation coefficient can range from -1 to 1, this is a relatively high degree of positive correlation, as we would expect with height and weight.
+The correlation between height and weight for this group of students is 0.83. Given that the correlation coefficient can range from -1 to 1, this is a relatively high degree of positive correlation, as we would expect with height and weight.
 
+==========================     ======= ======= =========================   =========================   =======================================================================================
+Student                        Height  Weight  Height in standard units    Weight in standard units    (Weight in standard units ) :math:`\times` (Height in standard units)    
+==========================     ======= ======= =========================   =========================   =======================================================================================
+Nick                           74      193     1.21                        0.99                        1.19
+Elana                          66      133     -0.63                       -0.67                       0.42
+Dinah                          68      155     -0.17                       -0.06                       0.01
+Rebecca                        69      147     0.06                        -0.29                       -0.02
+Ben                            73      175     0.98                        0.49                        0.48
+Charu                          70      128     0.29                        -0.81                       -0.24
+Sahar                          60      100     -2.00                       -1.59                       3.18
+Maggie                         63      128     -1.32                       -0.81                       1.07
+Faisal                         67      170     -0.40                       0.35                        -0.14
+Ted                            70      182     0.29                        0.68                        0.20
+Narciso                        70      178     0.29                        0.57                        0.17
+Katrina                        70      118     0.29                        -1.09                       -0.32
+CJ                             75      227     1.44                        1.93                        2.77
+Sophia                         62      115     -1.54                       -1.17                       1.81
+Will                           74      211     1.21                        1.49                        1.80 
+**Mean**                       68.73   157.33                                                          Total = 12.39
+**Standard Deviation**         4.36    36.12                                                           Correlation coefficient = :math:`\sf \frac{\text{Total}}{n} = \frac{12.39}{15} = 0.83`
+==========================     ======= ======= =========================   =========================   =======================================================================================
 
-To tickle your mathematical fancy, the forumal for calculating the correlation coefficient, :math:`r`, for two variables :math:`x` and :math:`y` is the following:
+To tickle your mathematical fancy, the formula for calculating the correlation coefficient, :math:`r`, for two variables :math:`x` and :math:`y` is the following:
 
 .. math::
 
-	r = \frac{1}{n} \Sum\limits_{i=1}^n \frac{x_i-\overline{x}}{\sigma_x} \frac{y_i-\overline{y}}{\sigma_y}
+	r = \frac{1}{n} \sum\limits_{i=1}^n \frac{x_i-\overline{x}}{\sigma_x} \frac{y_i-\overline{y}}{\sigma_y}
 
 where 
 
 	:math:`n` = the number of observations
+		
 	:math:`\overline{x}` = the mean for variable :math:`x`
+
 	:math:`\overline{y}` = the mean for variable :math:`y`
+
 	:math:`\sigma_x` = the standard deviation for variable :math:`x`
+
 	:math:`\sigma_y` = the standard deviation for variable :math:`y`
 
 ------------------------------------------------------------------------------------------------------------------------
 
-.. [#] If you're lucky. Lots of pinball machines are $0.50 now. Stupid inflation...
+.. [#] If you're lucky. Lots of pinball machines are $0.50 now. Thanks a lot, inflation...
 
 .. [#] `The Pinball Wizard <http://en.wikipedia.org/wiki/The_Who%27s_Tommy>`_
