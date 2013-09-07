@@ -1,21 +1,16 @@
 {% import "macros/ork.jinja" as ork with context %}
+
 Statistics 101 course outline
 *********************************
 
 Jonathan B. Miller, Saint Francis University, 2013 Fall
 
-Last updated on {{ d['code/00----datetimestamp.py|py']}}
-
 The content linked below is guaranteed to have typos. Let me know when you find one so I can fix it.
 
-Overview
-----------------
+- `Glossary <glossary.html>`_
+- `Watch Stat 101 introduction <s00v01.html>`_
 
-* Syllabus
-* Calendar
-* `Glossary <glossary.html>`_
-
---------------------------------------------------------------------------------------------------------------------------------------
+----
 
 Data Analysis
 ******************
@@ -31,6 +26,63 @@ Week 1
 
 Lab
 
-- `Lab 01 <s01lab01.html>`_
+- `Lab 01 <s01lab.html>`_
+
+PSet
+
+- `PSet 01 <s01pset.html>`_
 
 
+
+Week 2
+-----------
+
+Measures of Location
+
+- `SticiGui, Chapter 4 <http://www.stat.berkeley.edu/~stark/SticiGui/Text/location.htm>`_
+- `Lecture 1. Mean and Median <s02l01.html>`_
+- `Lecture 2. Markov's Inequality <s02l02.html>`_
+
+Measures of Spread
+
+- `Lecture 3. Variance, Standard Deviation, z scores <s02l03.html>`_
+- `Lecture 4. Box Plots and IQR <s02l04.html>`_
+- `Lecture 5. Chebychev's Inequality <s02l05.html>`_
+- `Lecture 6. Coefficient of Variation <s02l06.html>`_
+
+
+Lab
+
+- `Lab 02 <s02lab.html>`_
+
+PSet
+
+- `PSet 02 <s02pset.html>`_
+
+
+
+Week 3
+---------
+
+Scatter plots
+
+* `SticiGui, Chapter 5: Multivariate Data and Scatterplots <http://www.stat.berkeley.edu/~stark/SticiGui/Text/scatterplots.htm>`_
+
+Correlation
+
+* `Lecture 1: Correlation <s03l01.html>`_
+* `SticiGui, Chapter 7: Correlation and Association <http://www.stat.berkeley.edu/~stark/SticiGui/Text/correlation.htm>`_
+
+Regression
+
+* `Lecture 2: Regression <s03l02.html>`_
+* `Watch 'Looking at Data and Scatters' <s02v01.html>`_
+* `SticiGui, Chapter 9: Regression <http://www.stat.berkeley.edu/~stark/SticiGui/Text/regression.htm>`_
+
+Lab
+
+* `Lab 03 <s03lab.html>`_ 
+
+PSet
+
+- `PSet 03 <s03pset.html>`_
