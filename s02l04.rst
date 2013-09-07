@@ -56,6 +56,16 @@ Lets calculate the interquartile range, IQR, for the chlorine data.
 
 The **middle 50%** of the data are distributed over 46 ppm. In the box plot, the middle 50% of data are contained within the box.
 
-Box plots are great for assessing where the bulk of data resides and its overall spread.
+Box plots are great for assessing where the bulk of data resides and its overall spread. Box plots are a visualization of the five-number summary, a set of five numbers you can calculate for a dataset to get a decent view of how the data is arranged.
+
+The five-number summary consists of: 
+
+1. the sample minimum (smallest observation)
+#. the lower quartile
+#. the median
+#. the upper quartile
+#. the sample maximum (largest observation)
+
+One thing to note: unfortunately, there are different methods for calculating things like quartiles. Some methods rely on calculating the value exactly, such as Python, and may disregard whether the calculated value is an actual item in the dataset. Other methods calculate the value based on actual values in the dataset, with no fabrication. I will make an effort to make it clear to you whether you shoud be calculating and synthesizing a number or using only values existing in the dataset. Please let me know when something is unclear.
 
 

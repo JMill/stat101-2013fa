@@ -1,0 +1,33 @@
+{% import "macros/ork.jinja" as ork with context %}
+
+Coefficient of Variation
+**************************************************
+
+Sometimes we need to compare standard deviations of two different data sets. This is fine and dandy when both data sets use the same metrics, such as meters, pounds, or years. But what if we want to compare data sets that use different metrics? Coefficient of Variation ("CVar") is a tool designed to help us. It reminds me of the z-score tool (remember Fergie the Farmer), but it's application is different. Lets check it out.
+
+A formal look at CVar
+=========================================================
+
+The Coefficient of Variation is used to compare standard deviations when the measures have different metrics. The equation is:
+
+.. math::
+
+	\sf \text{CVar} = \frac{s}{\overline{x}} \cdot 100\%
+
+CVar example: Maserati
+=========================================================
+
+I did some research on a car manufacturer named Maserati. They make zippy fast cars that will cause your bank account to deplete in record time.
+
+Below is data associated with five random cars built by Maserati.
+
+=============== ===========
+Top Speed (mph) Power (bhp)
+=============== ===========
+177				440
+170 			400
+177 			440
+180 			395
+175  			390
+=============== ===========
+
