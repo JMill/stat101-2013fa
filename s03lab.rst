@@ -1,6 +1,6 @@
 {% import "macros/ork.jinja" as ork with context %}
 
-Lab
+Lab 03
 *************************************
 
 First, work through these exercises:
@@ -124,7 +124,7 @@ This graph should appear:
 
 This graph differs only by the presence of two labels that detail the regression line's equation and correlation amount, :math:`R^2`.  
 
-To add a label, we first have to create a string (a sentence in quotes). Our first string gives the equation for the regression line, in the form :math:`y' = m x + b`. This line constucts that string: ``equation == "y' = %.3f * x + %.3f" % (m, b)``. This looks kind of complex. The ``%.3f`` is just a *placeholder*, telling Python to "hold this spot for a decimal value (a *floating point* value) and make it have 3 spaces after the decimal point."  Note that there are two placeholders in this string, because we want to include two decimal values, ``m`` and ``b``.  I recommend you fiddle with this line to see how it breaks, to see if you can change the number of decimal points that are included (try ``%.2f`` and ``%.4f``), and other tweaks.
+To add a label, we first have to create a string (a sentence in quotes). Our first string gives the equation for the regression line, in the form :math:`y' = m x + b`. This line constucts that string: ``equation = "y' = %.3f * x + %.3f" % (m, b)``. This looks kind of complex. The ``%.3f`` is just a *placeholder*, telling Python to "hold this spot for a decimal value (a *floating point* value) and make it have 3 spaces after the decimal point."  Note that there are two placeholders in this string, because we want to include two decimal values, ``m`` and ``b``.  I recommend you fiddle with this line to see how it breaks, to see if you can change the number of decimal points that are included (try ``%.2f`` and ``%.4f``), and other tweaks.
 
 Once we have constructed a string (again, a *sentence*, the stuff in quotes in the code), we tell ``pylab`` to add the text to the image, via the command ``pylab.figtext( 0.5, 0.4, equation )``.  The ``0.5`` and ``0.4`` are horizontal and vertical coordinates, respectively, to place the text. Note that ``pylab`` assumes that ``0.0`` and ``0.0`` is the bottom left corner of the plot, and ``1.0`` and ``1.0`` is the top right corner of the plot.  These numbers have nothing to do with the x-axis and y-axis scales that are set up for our bivariate data.  Play a bit with the label placement coordinates. See if you can make one label appear in the bottom right of the plot, and the other in the top left. See, I'm making this really fun for you.
 

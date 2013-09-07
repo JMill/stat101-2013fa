@@ -1,6 +1,6 @@
 {% import "macros/ork.jinja" as ork with context %}
 
-Lab
+Lab 02
 *************************************
 
 - `Exercise 3: Fuel Range <http://www.jmillville.com/project/learnstats/ex3.html>`_
