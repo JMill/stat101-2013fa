@@ -101,16 +101,13 @@ Probability
 Week 5
 ---------
 
-.. NOTE::
-	Additional Week 5 content will be published this week. Will highlight additions where possible. The Exercise Set due date will be extended to Wednesday, Oct. 2nd.
-
-* **NEW 9/26** Watch `Probability <s04v01.html>`_
-* **NEW 9/26** Watch `Conditional Probability <s04v02.html>`_
+* Watch `Probability <s04v01.html>`_
+* Watch `Conditional Probability <s04v02.html>`_
 * `SticiGui, Chapter 13: The Meaning of Probability: Theories of Probability <http://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityPhilosophy.htm>`_
 * `SticiGui, Chapter 17: Probability: Axioms and Fundaments <http://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityAxioms.htm>`_
 * `SticiGui, Chapter 18: The 'Let's Make a Deal' (Monty Hall) Problem <http://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHall.htm>`_
-* Watch `Monty Hall Problem From The Movie 21 <s04v01.html>`_
-* Watch `The Monty Hall Problem - Explained <s04v02.html>`_
+* Watch `Monty Hall Problem From The Movie 21 <s04v03.html>`_
+* Watch `The Monty Hall Problem - Explained <s04v04.html>`_
 
 Lab:
 
@@ -118,6 +115,6 @@ Lab:
 
 PSet
 
-- *coming soon* PSet 04
+- **NEW 9/28** `PSet 04 <s04pset.html>`_
 
 
