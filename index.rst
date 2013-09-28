@@ -86,3 +86,38 @@ Lab
 PSet
 
 - `PSet 03 <s03pset.html>`_
+
+
+Week 4
+---------
+
+Mid-Term Exam 1
+
+-------------------------------
+
+Probability
+**************
+
+Week 5
+---------
+
+.. NOTE::
+	Additional Week 5 content will be published this week. Will highlight additions where possible. The Exercise Set due date will be extended to Wednesday, Oct. 2nd.
+
+* **NEW 9/26** Watch `Probability <s04v01.html>`_
+* **NEW 9/26** Watch `Conditional Probability <s04v02.html>`_
+* `SticiGui, Chapter 13: The Meaning of Probability: Theories of Probability <http://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityPhilosophy.htm>`_
+* `SticiGui, Chapter 17: Probability: Axioms and Fundaments <http://www.stat.berkeley.edu/~stark/SticiGui/Text/probabilityAxioms.htm>`_
+* `SticiGui, Chapter 18: The 'Let's Make a Deal' (Monty Hall) Problem <http://www.stat.berkeley.edu/~stark/SticiGui/Text/montyHall.htm>`_
+* Watch `Monty Hall Problem From The Movie 21 <s04v01.html>`_
+* Watch `The Monty Hall Problem - Explained <s04v02.html>`_
+
+Lab:
+
+- `Lab 04 <s04lab.html>`_
+
+PSet
+
+- *coming soon* PSet 04
+
+
