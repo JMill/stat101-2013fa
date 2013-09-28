@@ -11,5 +11,5 @@ def flipSim(numFlipsPerTrial, numTrials):
     fracHeads = []
     for i in range(numTrials):
         fracHeads.append(flip(numFlipsPerTrial))
-    mean = sum(fracHeads)/len(fracHeads)
+    mean = sum(fracHeads) / len(fracHeads)
     return mean
