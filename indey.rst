@@ -85,7 +85,7 @@ Lab
 
 PSet
 
-- `PSet 03 <s03pset.html>`_
+* `PSet 03 <s03pset.html>`_
 
 
 Week 4
@@ -140,38 +140,42 @@ Week 6
 * `SticiGui, Chapter 20: Random Variables and discrete Distributions <http://www.stat.berkeley.edu/~stark/SticiGui/Text/randomVariables.htm>`_
 * `SticiGui, Chapter 21: The Long Run and the Expected Value <http://www.stat.berkeley.edu/~stark/SticiGui/Text/expectation.htm>`_
 
+Lab
+
+* Lab 05 (forthcoming)
+
 PSet
 
-- `PSet 05 <s05pset.html>`_
+* `PSet 05 <s05pset.html>`_
 
 
-Random sampling with and without replacement
-===============================================
+.. Random sampling with and without replacement
+    ===============================================
 
-(Maybe Cartoon ch4, pp53-72)
-- Independence
-- Sampling with replacement: the binomial formula
-- Sampling without replacement: the hypergeometric formula
+    (Maybe Cartoon ch4, pp53-72)
+    - Independence
+    - Sampling with replacement: the binomial formula
+    - Sampling without replacement: the hypergeometric formula
 
-The law of averages (large numbers), and expected values
-===========================================================
+    The law of averages (large numbers), and expected values
+    ===========================================================
 
-Naked Stats - Ch 5 p78-89?
+    Naked Stats - Ch 5 p78-89?
 
-- Not the law of averages
-- The law of averages
-- The expected value of a random sum
-- The expected value of a random average
+    - Not the law of averages
+    - The law of averages
+    - The expected value of a random sum
+    - The expected value of a random average
 
-Exercise Set 06:
-Bluman Ch 5
-Bluman 10-3 p570
-Bluman 4-1 p193
-Law of averages stuff?
+    Exercise Set 06:
+    Bluman Ch 5
+    Bluman 10-3 p570
+    Bluman 4-1 p193
+    Law of averages stuff?
 
 
-Computation:
-More sim. Virus modeling lite? (Replacement and without?
+    Computation:
+    More sim. Virus modeling lite? (Replacement and without?
 
 
 Week 7
