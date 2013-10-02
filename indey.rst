@@ -3,16 +3,6 @@
 Statistics 101 course outline
 *********************************
 
-.. NOTE::
-	2013-09-30 - 9:30pm
-
-	Subject: The dark side of ebooks...
-	
-	The SticiGui textbook is unavailable because the server on which it resides appears to have succumbed to a severe campus-wide power outage at the host school, University of California at Berkeley. Here is a press release: http://newscenter.berkeley.edu/2013/09/30/power-outage-on-central-campus/
-
-	Lets hope things come online soon.
-
-
 Jonathan B. Miller, Saint Francis University, 2013 Fall
 
 The content linked below is guaranteed to have typos. Let me know when you find one so I can fix it.
@@ -129,28 +119,30 @@ PSet
 
 
 .. Two fundamental rules
-	(Cartoon pp28-45)
-	(Naked Stats pp68-~78(?))
-	- What is probability?
-	- Addition rule
-	- Multiplication rule
-	- Problem-solving techniques
-	- Conditional or unconditional
-	- xxxBayes? (Cartoon pp46-50)
-	Exercise Set 05:
-	Bluman Ch 4
+    (Cartoon pp28-45)
+    (Naked Stats pp68-~78(?))
+    - What is probability?
+    - Addition rule
+    - Multiplication rule
+    - Problem-solving techniques
+    - Conditional or unconditional
+    - xxxBayes? (Cartoon pp46-50)
+    Exercise Set 05:
+    Bluman Ch 4
 
 
 Week 6
 ---------
 
 .. NOTE::
-	Content for this week will be released in stages. Plan for this week's ESet (not yet released) to be due on Tuesday, October 8th. 
+    Chapter 21 has been added in place of Chapter 22. If you started Chapter 22, don't fret, as it may show up later, once you have a stronger foundation in statistics.
 
 * `SticiGui, Chapter 20: Random Variables and discrete Distributions <http://www.stat.berkeley.edu/~stark/SticiGui/Text/randomVariables.htm>`_
-* `SticiGui, Chapter 22: Standard Error <http://www.stat.berkeley.edu/~stark/SticiGui/Text/standardError.htm>`_
+* `SticiGui, Chapter 21: The Long Run and the Expected Value <http://www.stat.berkeley.edu/~stark/SticiGui/Text/index.htm>`_
 
+PSet
 
+- `PSet 05 <s05pset.html>`_
 
 
 Random sampling with and without replacement
