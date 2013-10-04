@@ -134,15 +134,14 @@ PSet
 Week 6
 ---------
 
-.. NOTE::
-    Chapter 21 has been added in place of Chapter 22. If you started Chapter 22, don't fret, as it may show up later, once you have a stronger foundation in statistics.
+.. NOTE:: ESet is forthcoming. Will be due Wednesday, Oct. 9.
 
 * `SticiGui, Chapter 20: Random Variables and discrete Distributions <http://www.stat.berkeley.edu/~stark/SticiGui/Text/randomVariables.htm>`_
 * `SticiGui, Chapter 21: The Long Run and the Expected Value <http://www.stat.berkeley.edu/~stark/SticiGui/Text/expectation.htm>`_
 
 Lab
 
-* Lab 05 (forthcoming)
+* **NEW** `Lab 05 <s05lab.html>`_
 
 PSet
 
