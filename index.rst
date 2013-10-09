@@ -7,7 +7,7 @@ Jonathan B. Miller, Saint Francis University, 2013 Fall
 
 The content linked below is guaranteed to have typos. Let me know when you find one so I can fix it.
 
-- `Glossary <glossary.html>`_
+.. - `Glossary <glossary.html>`_
 - `Watch Stat 101 introduction <s00v01.html>`_
 
 ----
@@ -85,7 +85,7 @@ Lab
 
 PSet
 
-- `PSet 03 <s03pset.html>`_
+* `PSet 03 <s03pset.html>`_
 
 
 Week 4
@@ -134,14 +134,12 @@ PSet
 Week 6
 ---------
 
-.. NOTE:: ESet is forthcoming. Will be due Wednesday, Oct. 9.
-
 * `SticiGui, Chapter 20: Random Variables and discrete Distributions <http://www.stat.berkeley.edu/~stark/SticiGui/Text/randomVariables.htm>`_
 * `SticiGui, Chapter 21: The Long Run and the Expected Value <http://www.stat.berkeley.edu/~stark/SticiGui/Text/expectation.htm>`_
 
 Lab
 
-* **NEW** `Lab 05 <s05lab.html>`_
+* `Lab 05 <s05lab.html>`_
 
 PSet
 
@@ -175,3 +173,31 @@ PSet
 
     Computation:
     More sim. Virus modeling lite? (Replacement and without?
+
+
+Week 7
+---------
+
+.. NOTE:: As in previous weeks, this week's content will be released in stages. For the next couple days, work through Chapter 23.
+
+* `SticiGui, Chapter 23: The Normal Curve, the Central Limit Theorem, and Markov's and Chebychev's Inequalities for Random Variables <http://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm>`_ [#]_
+
+.. Normal Curve
+	================
+
+	- Normal Distribution (for empirical rule, Cartoon p25) 
+	- Central Limit Theorem
+	- Normal Approx to the Binomial Distribution
+
+	Exercise Set 03:
+
+	- Interpreting normals
+	- describing with Week 02 tools
+
+	Bluman Ch6
+
+	Lab. Normal curve based in coin flips?  Section 12.3 of Vinay MIT. 
+
+--------
+
+.. [#] The textbook's author sure isn't afraid of long, jargon-filled chapter titles, is he? ;)
