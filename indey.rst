@@ -177,9 +177,19 @@ PSet
 Week 7
 ---------
 
-.. NOTE:: As in previous weeks, this week's content will be released in stages. For the next couple days, work through Chapter 23.
+.. NOTE:: As in previous weeks, this week's content will be released in stages. (See revised 'When Stuff Is Due' document on Blackboard.)
 
 * `SticiGui, Chapter 23: The Normal Curve, the Central Limit Theorem, and Markov's and Chebychev's Inequalities for Random Variables <http://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm>`_ [#]_
+* `The Cartoon Guide to Statistics, Chapter 5: A Tale of Two Distributions <s07r01.html>`_
+
+Lab
+
+* (forthcoming) Lab 06
+
+PSet
+
+* (forthecoming) PSet 06
+
 
 .. Normal Curve
 	================
@@ -195,7 +205,19 @@ Week 7
 
 	Bluman Ch6
 
-	Lab. Normal curve based in coin flips?  Section 12.3 of Vinay MIT. 
+	Central Limit Theorem
+	=========================
+
+	- Standard error of a random sum
+	- Probabilities for the sum of a large sample
+	- Central Limit Theorem (Cartoon pp106)
+	- Scope of the normal approximation
+
+	Exercise Set 7:
+	Bluman 6-3 p331
+
+	Lab:
+	Normal curve based in coin flips?  Section 12.3 of Vinay MIT. 
 
 
 Week 8
@@ -203,23 +225,6 @@ Week 8
 
 {Mid-Term Exam 2, covering Weeks 1-6}
 
-Read: `Chapter 23 <http://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm>`_ (continued)
-
-(Maybe Cartoon ch5 pp73-88)
-
-Central Limit Theorem
-=========================
-
-- Standard error of a random sum
-- Probabilities for the sum of a large sample
-- Central Limit Theorem (Cartoon pp106)
-- Scope of the normal approximation
-
-Exercise Set 7:
-Bluman 6-3 p331
-
-Lab:
-???
 
 ------------------------------------------------------------------------------------------------------------------------
 
