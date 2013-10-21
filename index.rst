@@ -177,25 +177,75 @@ PSet
 Week 7
 ---------
 
-.. NOTE:: As in previous weeks, this week's content will be released in stages. For the next couple days, work through Chapter 23.
-
 * `SticiGui, Chapter 23: The Normal Curve, the Central Limit Theorem, and Markov's and Chebychev's Inequalities for Random Variables <http://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm>`_ [#]_
+* `The Cartoon Guide to Statistics, Chapter 5: A Tale of Two Distributions <s07r01.html>`_
+
+Lab
+
+* `Lab 06 <s07lab.html>`_
+
+PSet
+
+* `PSet 06 <s07pset.html>`_
+
 
 .. Normal Curve
-	================
+    ================
 
-	- Normal Distribution (for empirical rule, Cartoon p25) 
-	- Central Limit Theorem
-	- Normal Approx to the Binomial Distribution
+    - Normal Distribution (for empirical rule, Cartoon p25) 
+    - Central Limit Theorem
+    - Normal Approx to the Binomial Distribution
 
-	Exercise Set 03:
+    Central Limit Theorem
+    =========================
 
-	- Interpreting normals
-	- describing with Week 02 tools
+    - Standard error of a random sum
+    - Probabilities for the sum of a large sample
+    - Central Limit Theorem (Cartoon pp106)
+    - Scope of the normal approximation
 
-	Bluman Ch6
+    Exercise Set 7:
+    Bluman Ch6
+    Bluman 6-3 p331
 
-	Lab. Normal curve based in coin flips?  Section 12.3 of Vinay MIT. 
+    Lab:
+    Normal curve based in coin flips?  Section 12.3 of Vinay MIT. 
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+Inferential Statistics
+************************
+
+Week 8
+---------
+
+.. NOTE:: As in previous weeks, this week's content will be released in stages.
+
+* `SticiGui, Chapter 26: Confidence Intervals <http://www.stat.berkeley.edu/~stark/SticiGui/Text/confidenceIntervals.htm>`_
+
+.. Estimating unknown parameters
+    ===============================
+
+    ( for confidence intervals, Cartoon ch7, pp111-136)
+    - Random samples
+    - Estimating population averages and percents
+    - Approximate confidence interval
+    - Interpreting confidence intervals
+
+    Exercise Set 8:
+    Bluman Ch 7
+
+    Lab:
+    Sampling types? 
+    If needed, Cartoon ch6, pp89-105
+
+
+Week 9
+---------
+
+Mid-Term Exam 2, covering Weeks 5-7, with some review from Weeks 1-6.
+
 
 --------
 
