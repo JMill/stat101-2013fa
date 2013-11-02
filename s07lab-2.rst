@@ -7,7 +7,7 @@ This exercise follows directly from the previous. If you haven't already done so
 
 .. raw:: html
 
-    {{ d['code/s08lab-2-01-samplinglists.py|idio|pycon|pyg']['make list']|indent(4) }}
+    {{ d['code/s07lab-2-01-samplinglists.py|idio|pycon|pyg']['make list']|indent(4) }}
     
 .. NOTE::
     When inputting the commmand above, after typing ``'samoa',``, I press the "Enter" key on the keyboard. The Python console automatically indents the next line, because it understands that I haven't finished typing in the rest of the list.
@@ -21,7 +21,7 @@ You can choose to look at part of the list, such as only the first three items o
 
 .. raw:: html
 
-    {{ d['code/s08lab-2-01-samplinglists.py|idio|pycon|pyg']['slicing0']|indent(4) }}
+    {{ d['code/s07lab-2-01-samplinglists.py|idio|pycon|pyg']['slicing0']|indent(4) }}
 
 In Python, slicing uses the 'crosshairs' notation, the left and right brackets (``[`` and ``]``), except instead of targeting a specific position, it's targeting all positions located between a starting position, such as ``0``, and *before* an ending position, such as ``4``. The start and end positions are separated by a ``:``, a colon. In practice, the command ``recipes[0:4]`` keeps the items in position 0, 1, 2, and 3, and tosses out the rest. Since "molasses", "ginger", "chocolate", and "samoa" are in positions 0 through 3, they form the slice.
 
@@ -29,7 +29,7 @@ Here are more ways of slicing our recipe list. After typing each command after t
 
 .. raw:: html
 
-    {{ d['code/s08lab-2-01-samplinglists.py|idio|pycon|pyg']['more slicing']|indent(4) }}
+    {{ d['code/s07lab-2-01-samplinglists.py|idio|pycon|pyg']['more slicing']|indent(4) }}
     
 The last line, ``recipes[:]``, should look a bit strange to you. The command instructs Python to give you all the items that are between the start and the end. That is, the command gives the whole list back to us. This may sound dumb, but it's actually very useful when working with data, because it's a quick way to make a copy of your raw data, like this: ``newList = oldList[:]``. Then you can mess with the copy without accidentally disturbing the original data. It would be embarassing to lose one of our cookie recipes.
 
@@ -37,19 +37,19 @@ Instead of playing with slices, recall that we're supposed to be picking three c
 
 .. raw:: html
 
-    {{ d['code/s08lab-2-01-samplinglists.py|idio|pycon|pyg']['last three']|indent(4) }}
+    {{ d['code/s07lab-2-01-samplinglists.py|idio|pycon|pyg']['last three']|indent(4) }}
 
 We created a new variable, ``samples``, and stuffed into it a slice of our ``recipes`` list.  But how many items are in our sample?
 
 .. raw:: html
 
-    {{ d['code/s08lab-2-01-samplinglists.py|idio|pycon|pyg']['how many']|indent(4) }}
+    {{ d['code/s07lab-2-01-samplinglists.py|idio|pycon|pyg']['how many']|indent(4) }}
 
 Peek inside ``samples`` to see what the items are:
 
 .. raw:: html
 
-    {{ d['code/s08lab-2-01-samplinglists.py|idio|pycon|pyg']['view sample']|indent(4) }}
+    {{ d['code/s07lab-2-01-samplinglists.py|idio|pycon|pyg']['view sample']|indent(4) }}
 
 So, we apparently got the last three items from our original recipe list, but how?  Lets dissect the command ``recipes[len(recipes) - 3:]``:
 

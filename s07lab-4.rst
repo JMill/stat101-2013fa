@@ -16,7 +16,7 @@ Python has a built-in module, ``random``, for doing things randomly. (Recall how
 
 .. raw:: html
 
-    {{ d['code/s08lab-4-01-samplingrandom.py|idio|pycon|pyg']['import']|indent(4) }}
+    {{ d['code/s07lab-4-01-samplingrandom.py|idio|pycon|pyg']['import']|indent(4) }}
 
 If the module loads properly, you will not see any output in the console. If you see an ``ImportError``, look for a typo.
 
@@ -26,18 +26,18 @@ Python's ``random`` module contains many functions. You will use one, ``sample()
 
 .. raw:: html
 
-    {{ d['code/s08lab-4-01-samplingrandom.py|idio|pycon|pyg']['recipes']|indent(4) }}
+    {{ d['code/s07lab-4-01-samplingrandom.py|idio|pycon|pyg']['recipes']|indent(4) }}
     
 Pick three recipes, randomly.
 
 .. raw:: html
 
-    {{ d['code/s08lab-4-01-samplingrandom.py|idio|pycon|pyg']['sample']|indent(4) }}
+    {{ d['code/s07lab-4-01-samplingrandom.py|idio|pycon|pyg']['sample']|indent(4) }}
     
 It's very unlikely your list of three recipes is the same as mine. (Though, of course, it is well within statistical possibility that you *did* get the same result as I.)  For fun, run the script again by pressing the "up arrow" key on your keyboard. Do this a couple times.
 
 .. raw:: html
 
-    {{ d['code/s08lab-4-01-samplingrandom.py|idio|pycon|pyg']['sample again']|indent(4) }}
+    {{ d['code/s07lab-4-01-samplingrandom.py|idio|pycon|pyg']['sample again']|indent(4) }}
     
 Though generating random samples over and over would keep me entertained for at least five minutes, we should move on to more challenging things.

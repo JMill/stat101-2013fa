@@ -40,37 +40,37 @@ First, make a list of the flavors:
 
 .. raw:: html
 
-    {{ d['code/s08lab-1-01-listsamples.py|idio|pycon|pyg']['make data']|indent(4) }}
+    {{ d['code/s07lab-1-01-listsamples.py|idio|pycon|pyg']['make data']|indent(4) }}
     
 That's a list of five flavors. On a second piece of paper I have more flavor recipes:
 
 .. raw:: html
 
-    {{ d['code/s08lab-1-01-listsamples.py|idio|pycon|pyg']['forgot data']|indent(4) }}
+    {{ d['code/s07lab-1-01-listsamples.py|idio|pycon|pyg']['forgot data']|indent(4) }}
 
 Combine both lists into one big list of nine flavors.
 
 .. raw:: html
 
-    {{ d['code/s08lab-1-01-listsamples.py|idio|pycon|pyg']['combine data']|indent(4) }}
+    {{ d['code/s07lab-1-01-listsamples.py|idio|pycon|pyg']['combine data']|indent(4) }}
 
 Oops, I forgot about my newest recipe, bacon-flavored cookies! Lets append that to the list, giving us ten total recipes.
 
 .. raw:: html
 
-    {{ d['code/s08lab-1-01-listsamples.py|idio|pycon|pyg']['append data']|indent(4) }}
+    {{ d['code/s07lab-1-01-listsamples.py|idio|pycon|pyg']['append data']|indent(4) }}
 
 Display all of the flavors. 
 
 .. raw:: html
 
-    {{ d['code/s08lab-1-01-listsamples.py|idio|pycon|pyg']['print data']|indent(4) }}
+    {{ d['code/s07lab-1-01-listsamples.py|idio|pycon|pyg']['print data']|indent(4) }}
 
 To review, do you remember what ``len()`` does? It counts how many items are in a list.
 
 .. raw:: html
 
-    {{ d['code/s08lab-1-01-listsamples.py|idio|pycon|pyg']['print-len']|indent(4) }}
+    {{ d['code/s07lab-1-01-listsamples.py|idio|pycon|pyg']['print-len']|indent(4) }}
 
 We can thumb through the recipes in the list, picking a certain one. 
 
@@ -78,13 +78,13 @@ I like molasses cookies. I can choose molasses by specifying its position.
 
 .. raw:: html
 
-    {{ d['code/s08lab-1-01-listsamples.py|idio|pycon|pyg']['position0']|indent(4) }}
+    {{ d['code/s07lab-1-01-listsamples.py|idio|pycon|pyg']['position0']|indent(4) }}
 
 If you're curious about a bacon-flavored cookie, you can choose it by typing:
 
 .. raw:: html
 
-    {{ d['code/s08lab-1-01-listsamples.py|idio|pycon|pyg']['position9']|indent(4) }}
+    {{ d['code/s07lab-1-01-listsamples.py|idio|pycon|pyg']['position9']|indent(4) }}
 
 Try choosing other cookie flavors. Start by typing ``recipes[``, then input a number, and then end with a ``]``.
 
@@ -96,7 +96,7 @@ You can see this in action if you type
 
 .. raw:: html
 
-    {{ d['code/s08lab-1-01-listsamples.py|idio|pycon|pyg']['range10']|indent(4) }}
+    {{ d['code/s07lab-1-01-listsamples.py|idio|pycon|pyg']['range10']|indent(4) }}
 
 So how does ``recipes[0]`` mean "molasses" to the computer? Position 0 corresponds to the first item in any list.  To look up what value is in a specific position, in this case the 0th (pronounced "zero-th") position, put the 0 between a pair of brackets, [ and ].  The brackets act like crosshairs on a gun. You are setting sights on position 0. What's in position 0? "molasses".
 

@@ -19,7 +19,7 @@ Write a script that:
 
 The sample displayed after running your script should contain three cookie flavors, like this (the specific flavors your computer generates will likely be different than mine)::
 
-    {{ d['code/s08lab-5-01-challenge-steps4.py|py']|indent(4) }}
+    {{ d['code/s07lab-5-01-challenge-steps4.py|py']|indent(4) }}
 
 While the previous exercises have been performed in the console, your final script should be written in the space *above* the console. Save your script as "lab07-cookie_sample_challenge.py". 
 
@@ -31,7 +31,7 @@ For example, write the command to complete the first step, run the program, and 
 
 To help give you a nudge, below is a code skeleton. Open a new file with Canopy, type in the following code, and then add more code to make the program do what it is supposed to do.
 
-{{ ork.code('code/s08lab-5-00-challenge-starter.py|pyg') }}
+{{ ork.code('code/s07lab-5-00-challenge-starter.py|pyg') }}
 
 
 
@@ -42,13 +42,13 @@ Hints
 
 .. raw:: html
 
-    {{ d['code/s08lab-4-01-samplingrandom.py|idio|pycon|pyg']['list copy']|indent(4) }}
+    {{ d['code/s07lab-4-01-samplingrandom.py|idio|pycon|pyg']['list copy']|indent(4) }}
 
 - Create new variables to hold intermediate lists.
 
 .. raw:: html
 
-    {{ d['code/s08lab-4-01-samplingrandom.py|idio|pycon|pyg']['intermediates']|indent(4) }}
+    {{ d['code/s07lab-4-01-samplingrandom.py|idio|pycon|pyg']['intermediates']|indent(4) }}
 
 
 After you have spent time solving the challenge (or trying but failing miserably -- that's okay), then review the solution below.
@@ -60,25 +60,25 @@ To start tackling the challenge, I used the numbered steps as a coding guide, co
 
 **Phase 1**
 
-{{ ork.code('code/s08lab-5-01-challenge-steps.py|pyg') }}
+{{ ork.code('code/s07lab-5-01-challenge-steps.py|pyg') }}
 
 Next, below each commented line, I typed in the code to satisfy that specific step, testing the script after every command I wrote.
 
 **Phase 2**
 
-{{ ork.code('code/s08lab-5-01-challenge-steps2.py|pyg') }}
+{{ ork.code('code/s07lab-5-01-challenge-steps2.py|pyg') }}
 
 **Phase 3**
 
-{{ ork.code('code/s08lab-5-01-challenge-steps3.py|pyg') }}
+{{ ork.code('code/s07lab-5-01-challenge-steps3.py|pyg') }}
 
 **Phase 4, the end**
 
-{{ ork.code('code/s08lab-5-01-challenge-steps4.py|pyg') }}
+{{ ork.code('code/s07lab-5-01-challenge-steps4.py|pyg') }}
 
 Output::
 
-    {{ d['code/s08lab-5-01-challenge-steps4.py|py']|indent(4) }}
+    {{ d['code/s07lab-5-01-challenge-steps4.py|py']|indent(4) }}
 
     
 Sampling Summary

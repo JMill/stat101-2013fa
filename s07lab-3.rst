@@ -7,7 +7,7 @@ You should have the list of ten cookie flavors from the previous exercises. If n
 
 .. raw:: html
 
-    {{ d['code/s08lab-3-01-samplinginterval.py|idio|pycon|pyg']['make list']|indent(4) }}
+    {{ d['code/s07lab-3-01-samplinginterval.py|idio|pycon|pyg']['make list']|indent(4) }}
 
 In the previous exercise, you saw how to carve out a specific sample from our recipe list. This was a dangerous way to collect a sample, because I, as the instuctor and cookie connoisseur, deliberately influenced the sampling. Why would I do that? Because I really like peanut, oatmeal, and bacon cookies, and wanted to make sure we baked those flavors for our community taste test. That was quite rotten of me, huh?
 
@@ -28,7 +28,7 @@ First, here's a short review of ``range()``:
 
 .. raw:: html
 
-    {{ d['code/s08lab-3-01-samplinginterval.py|idio|pycon|pyg']['range review']|indent(4) }}
+    {{ d['code/s07lab-3-01-samplinginterval.py|idio|pycon|pyg']['range review']|indent(4) }}
 
 ``range(5)`` creates a list of five numbers, counting from the first number, 0, to the fifth number, 4. (Remember, computers count differently than humans.)
 
@@ -36,7 +36,7 @@ Now, lets create *pretend data*: 165 numbers in a single list.
 
 .. raw:: html
 
-    {{ d['code/s08lab-3-01-samplinginterval.py|idio|pycon|pyg']['pretend data']|indent(4) }}
+    {{ d['code/s07lab-3-01-samplinginterval.py|idio|pycon|pyg']['pretend data']|indent(4) }}
 
 The variable ``pretendData`` holds a list, which, in turn, holds a bunch of sequential numbers from 0 to 164. This should be conceptually easy for you by now. If not, play with ``range()``, variables, and lists some more, then come back here.
 
@@ -44,19 +44,19 @@ Next, lets say that we need to amass a sample of nine or ten values from our big
 
 .. raw:: html
 
-    {{ d['code/s08lab-3-01-samplinginterval.py|idio|pycon|pyg']['interval10']|indent(4) }}
+    {{ d['code/s07lab-3-01-samplinginterval.py|idio|pycon|pyg']['interval10']|indent(4) }}
 
 The interval worked well, choosing every 10th item in the list. But how many items are in our sample?
 
 .. raw:: html
 
-    {{ d['code/s08lab-3-01-samplinginterval.py|idio|pycon|pyg']['interval10len']|indent(4) }}
+    {{ d['code/s07lab-3-01-samplinginterval.py|idio|pycon|pyg']['interval10len']|indent(4) }}
 
 Oops, too many items. Lets try again by tweaking the interval amount.
 
 .. raw:: html
 
-    {{ d['code/s08lab-3-01-samplinginterval.py|idio|pycon|pyg']['interval20']|indent(4) }}
+    {{ d['code/s07lab-3-01-samplinginterval.py|idio|pycon|pyg']['interval20']|indent(4) }}
 
 Choosing every 20th item gives us nine items in our sample, which was our goal. We are done.
 

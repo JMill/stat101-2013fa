@@ -1,0 +1,47 @@
+{% import "macros/ork.jinja" as ork with context %}
+
+A Tale of Two Distributions
+**************************************************
+
+Excerpt from Chapter 5 of *The Cartoon Guide to Statistics*, as referenced previously in the course.
+
+The first part of the chapter serves as a brief review of the previous section's content. The second part introduces the standard (aka 'normal' aka 'Gaussian' aka 'bell curve') distribution.
+
+
+|a-tail-of-two-distributions--01|
+|a-tail-of-two-distributions--02|
+|a-tail-of-two-distributions--03|
+|a-tail-of-two-distributions--04|
+|a-tail-of-two-distributions--05|
+|a-tail-of-two-distributions--06|
+|a-tail-of-two-distributions--07|
+|a-tail-of-two-distributions--08|
+|a-tail-of-two-distributions--09|
+|a-tail-of-two-distributions--10|
+|a-tail-of-two-distributions--11|
+|a-tail-of-two-distributions--12|
+|a-tail-of-two-distributions--13|
+|a-tail-of-two-distributions--14|
+|a-tail-of-two-distributions--15|
+|a-tail-of-two-distributions--16|
+
+
+.. |a-tail-of-two-distributions--01| image:: images/s06r01-a-tail-of-two-distributions--01.jpg
+.. |a-tail-of-two-distributions--02| image:: images/s06r01-a-tail-of-two-distributions--02.jpg
+.. |a-tail-of-two-distributions--03| image:: images/s06r01-a-tail-of-two-distributions--03.jpg
+.. |a-tail-of-two-distributions--04| image:: images/s06r01-a-tail-of-two-distributions--04.jpg
+.. |a-tail-of-two-distributions--05| image:: images/s06r01-a-tail-of-two-distributions--05.jpg
+.. |a-tail-of-two-distributions--06| image:: images/s06r01-a-tail-of-two-distributions--06.jpg
+.. |a-tail-of-two-distributions--07| image:: images/s06r01-a-tail-of-two-distributions--07.jpg
+.. |a-tail-of-two-distributions--08| image:: images/s06r01-a-tail-of-two-distributions--08.jpg
+.. |a-tail-of-two-distributions--09| image:: images/s06r01-a-tail-of-two-distributions--09.jpg
+.. |a-tail-of-two-distributions--10| image:: images/s06r01-a-tail-of-two-distributions--10.jpg
+.. |a-tail-of-two-distributions--11| image:: images/s06r01-a-tail-of-two-distributions--11.jpg
+.. |a-tail-of-two-distributions--12| image:: images/s06r01-a-tail-of-two-distributions--12.jpg
+.. |a-tail-of-two-distributions--13| image:: images/s06r01-a-tail-of-two-distributions--13.jpg
+.. |a-tail-of-two-distributions--14| image:: images/s06r01-a-tail-of-two-distributions--14.jpg
+.. |a-tail-of-two-distributions--15| image:: images/s06r01-a-tail-of-two-distributions--15.jpg
+.. |a-tail-of-two-distributions--16| image:: images/s06r01-a-tail-of-two-distributions--16.jpg
+
+This is the final page.
+

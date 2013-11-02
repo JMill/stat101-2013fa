@@ -1,47 +1,64 @@
 {% import "macros/ork.jinja" as ork with context %}
 
-A Tale of Two Distributions
+Confidence Intervals
 **************************************************
 
-Excerpt from Chapter 5 of *The Cartoon Guide to Statistics*, as referenced previously in the course.
+Excerpt from Chapter 7 of *The Cartoon Guide to Statistics*.
 
-The first part of the chapter serves as a brief review of the previous section's content. The second part introduces the standard (aka 'normal' aka 'Gaussian' aka 'bell curve') distribution.
+|confidence-intervals--01|
+|confidence-intervals--02|
+|confidence-intervals--03|
+|confidence-intervals--04|
+|confidence-intervals--05|
+|confidence-intervals--06|
+|confidence-intervals--07|
+|confidence-intervals--08|
+|confidence-intervals--09|
+|confidence-intervals--10|
+|confidence-intervals--11|
+|confidence-intervals--12|
+|confidence-intervals--13|
+|confidence-intervals--14|
+|confidence-intervals--15|
+|confidence-intervals--16|
+|confidence-intervals--17|
+|confidence-intervals--18|
+|confidence-intervals--19|
+|confidence-intervals--20|
+|confidence-intervals--21|
+|confidence-intervals--22|
+|confidence-intervals--23|
+|confidence-intervals--24|
+|confidence-intervals--25|
+|confidence-intervals--26|
 
 
-|a-tail-of-two-distributions--01|
-|a-tail-of-two-distributions--02|
-|a-tail-of-two-distributions--03|
-|a-tail-of-two-distributions--04|
-|a-tail-of-two-distributions--05|
-|a-tail-of-two-distributions--06|
-|a-tail-of-two-distributions--07|
-|a-tail-of-two-distributions--08|
-|a-tail-of-two-distributions--09|
-|a-tail-of-two-distributions--10|
-|a-tail-of-two-distributions--11|
-|a-tail-of-two-distributions--12|
-|a-tail-of-two-distributions--13|
-|a-tail-of-two-distributions--14|
-|a-tail-of-two-distributions--15|
-|a-tail-of-two-distributions--16|
-
-
-.. |a-tail-of-two-distributions--01| image:: images/s07r01-a-tail-of-two-distributions--01.jpg
-.. |a-tail-of-two-distributions--02| image:: images/s07r01-a-tail-of-two-distributions--02.jpg
-.. |a-tail-of-two-distributions--03| image:: images/s07r01-a-tail-of-two-distributions--03.jpg
-.. |a-tail-of-two-distributions--04| image:: images/s07r01-a-tail-of-two-distributions--04.jpg
-.. |a-tail-of-two-distributions--05| image:: images/s07r01-a-tail-of-two-distributions--05.jpg
-.. |a-tail-of-two-distributions--06| image:: images/s07r01-a-tail-of-two-distributions--06.jpg
-.. |a-tail-of-two-distributions--07| image:: images/s07r01-a-tail-of-two-distributions--07.jpg
-.. |a-tail-of-two-distributions--08| image:: images/s07r01-a-tail-of-two-distributions--08.jpg
-.. |a-tail-of-two-distributions--09| image:: images/s07r01-a-tail-of-two-distributions--09.jpg
-.. |a-tail-of-two-distributions--10| image:: images/s07r01-a-tail-of-two-distributions--10.jpg
-.. |a-tail-of-two-distributions--11| image:: images/s07r01-a-tail-of-two-distributions--11.jpg
-.. |a-tail-of-two-distributions--12| image:: images/s07r01-a-tail-of-two-distributions--12.jpg
-.. |a-tail-of-two-distributions--13| image:: images/s07r01-a-tail-of-two-distributions--13.jpg
-.. |a-tail-of-two-distributions--14| image:: images/s07r01-a-tail-of-two-distributions--14.jpg
-.. |a-tail-of-two-distributions--15| image:: images/s07r01-a-tail-of-two-distributions--15.jpg
-.. |a-tail-of-two-distributions--16| image:: images/s07r01-a-tail-of-two-distributions--16.jpg
+.. |confidence-intervals--01| image:: images/s07r01-confidence-intervals--01.jpg
+.. |confidence-intervals--02| image:: images/s07r01-confidence-intervals--02.jpg
+.. |confidence-intervals--03| image:: images/s07r01-confidence-intervals--03.jpg
+.. |confidence-intervals--04| image:: images/s07r01-confidence-intervals--04.jpg
+.. |confidence-intervals--05| image:: images/s07r01-confidence-intervals--05.jpg
+.. |confidence-intervals--06| image:: images/s07r01-confidence-intervals--06.jpg
+.. |confidence-intervals--07| image:: images/s07r01-confidence-intervals--07.jpg
+.. |confidence-intervals--08| image:: images/s07r01-confidence-intervals--08.jpg
+.. |confidence-intervals--09| image:: images/s07r01-confidence-intervals--09.jpg
+.. |confidence-intervals--10| image:: images/s07r01-confidence-intervals--10.jpg
+.. |confidence-intervals--11| image:: images/s07r01-confidence-intervals--11.jpg
+.. |confidence-intervals--12| image:: images/s07r01-confidence-intervals--12.jpg
+.. |confidence-intervals--13| image:: images/s07r01-confidence-intervals--13.jpg
+.. |confidence-intervals--14| image:: images/s07r01-confidence-intervals--14.jpg
+.. |confidence-intervals--15| image:: images/s07r01-confidence-intervals--15.jpg
+.. |confidence-intervals--16| image:: images/s07r01-confidence-intervals--16.jpg
+.. |confidence-intervals--17| image:: images/s07r01-confidence-intervals--17.jpg
+.. |confidence-intervals--18| image:: images/s07r01-confidence-intervals--18.jpg
+.. |confidence-intervals--19| image:: images/s07r01-confidence-intervals--19.jpg
+.. |confidence-intervals--20| image:: images/s07r01-confidence-intervals--20.jpg
+.. |confidence-intervals--21| image:: images/s07r01-confidence-intervals--21.jpg
+.. |confidence-intervals--22| image:: images/s07r01-confidence-intervals--22.jpg
+.. |confidence-intervals--23| image:: images/s07r01-confidence-intervals--23.jpg
+.. |confidence-intervals--24| image:: images/s07r01-confidence-intervals--24.jpg
+.. |confidence-intervals--25| image:: images/s07r01-confidence-intervals--25.jpg
+.. |confidence-intervals--26| image:: images/s07r01-confidence-intervals--26.jpg
 
 This is the final page.
 

@@ -178,15 +178,15 @@ Week 7
 ---------
 
 * `SticiGui, Chapter 23: The Normal Curve, the Central Limit Theorem, and Markov's and Chebychev's Inequalities for Random Variables <http://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm>`_
-* `The Cartoon Guide to Statistics, Chapter 5: A Tale of Two Distributions <s07r01.html>`_
+* `The Cartoon Guide to Statistics, Chapter 5: A Tale of Two Distributions <s06r01.html>`_
 
 Lab
 
-* `Lab 06 <s07lab.html>`_
+* `Lab 06 <s06lab.html>`_
 
 PSet
 
-* `PSet 06 <s07pset.html>`_
+* `PSet 06 <s06pset.html>`_
 
 
 .. Normal Curve
@@ -220,16 +220,16 @@ Inferential Statistics
 Week 8
 ---------
 
-* `The Cartoon Guide to Statistics, Chapter 7: Confidence Intervals <s08r01.html>`_
+* `The Cartoon Guide to Statistics, Chapter 7: Confidence Intervals <s07r01.html>`_
 * `SticiGui, Chapter 26: Confidence Intervals <http://www.stat.berkeley.edu/~stark/SticiGui/Text/confidenceIntervals.htm>`_
 
 Lab
 
-* `Lab 07 <s08lab.html>`_
+* `Lab 07 <s07lab.html>`_
 
 PSet
 
-* `PSet 07 <s08pset.html>`_
+* `PSet 07 <s07pset.html>`_
 
 .. Estimating unknown parameters
     ===============================

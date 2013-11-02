@@ -1,25 +1,19 @@
 {% import "macros/ork.jinja" as ork with context %}
 
-Distributions
-**************************************************
+Lab 07 - Sampling
+*************************************
 
-We have a guest lab author this week. This is an excerpt from Chapter 12 of the introductory Python text by Vinay. Type in the code samples as in previous labs. 
+This lab extends demonstrates several sampling techniques for when you need to draw conclusions about a population but can't reasonably study every single member of that population. For example, if you wanted to determine the gender ratio of professional clowns in the United States, it'd be tricky to locate every clown and identity its gender. Instead, you can sample a small batch. But you must be careful, because it's easy to introduce *bias* when sampling. The objective is to ensure the sample is as representative of the population as possible. [#]_
 
-.. NOTE:: You must include the line ``import pylab`` at the top your code. It's not explicitly shown in the code provided below. Let me know if you have trouble getting the code to run.
-
-
-|s07lab-01|
-|s07lab-02|
-|s07lab-03|
-|s07lab-04|
-|s07lab-05|
+Work through the following exercises to learn the basics of sampling techniques.
 
 
-.. |s07lab-01| image:: images/s07lab-01.png
-.. |s07lab-02| image:: images/s07lab-02.png
-.. |s07lab-03| image:: images/s07lab-03.png
-.. |s07lab-04| image:: images/s07lab-04.png
-.. |s07lab-05| image:: images/s07lab-05.png
+- `Sampling a Population <s07lab-1.html>`_
+- `A Sample of Lists <s07lab-2.html>`_
+- `Sampling Intervals <s07lab-3.html>`_
+- `Random Sampling <s07lab-4.html>`_
+- `Cookie Sample Challenge <s07lab-5.html>`_
 
-This is the final page.
+There is nothing to turn in for this lab. 
 
+.. [#] It is intentional that `it <http://en.wikipedia.org/wiki/It_(1990_film)>`_ appears in this paragraph several times.
