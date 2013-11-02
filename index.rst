@@ -220,16 +220,9 @@ Inferential Statistics
 Week 8
 ---------
 
-* `The Cartoon Guide to Statistics, Chapter 7: Confidence Intervals <s08r01.html>`_
+.. NOTE:: As in previous weeks, this week's content will be released in stages.
+
 * `SticiGui, Chapter 26: Confidence Intervals <http://www.stat.berkeley.edu/~stark/SticiGui/Text/confidenceIntervals.htm>`_
-
-Lab
-
-* `Lab 07 <s08lab.html>`_
-
-PSet
-
-* `PSet 07 <s08pset.html>`_
 
 .. Estimating unknown parameters
     ===============================
@@ -251,4 +244,9 @@ PSet
 Week 9
 ---------
 
-Mid-Term Exam 2, covering Weeks 5-7, with some review from Weeks 1-3.
+Mid-Term Exam 2, covering Weeks 5-7, with some review from Weeks 1-6.
+
+
+--------
+
+.. [#] The textbook's author sure isn't afraid of long, jargon-filled chapter titles, is he? ;)
