@@ -1,64 +1,53 @@
 {% import "macros/ork.jinja" as ork with context %}
 
-Confidence Intervals
+Hypothesis Testing
 **************************************************
 
-Excerpt from Chapter 7 of *The Cartoon Guide to Statistics*.
+Excerpt from Chapter 8 of *The Cartoon Guide to Statistics*.
 
-|confidence-intervals--01|
-|confidence-intervals--02|
-|confidence-intervals--03|
-|confidence-intervals--04|
-|confidence-intervals--05|
-|confidence-intervals--06|
-|confidence-intervals--07|
-|confidence-intervals--08|
-|confidence-intervals--09|
-|confidence-intervals--10|
-|confidence-intervals--11|
-|confidence-intervals--12|
-|confidence-intervals--13|
-|confidence-intervals--14|
-|confidence-intervals--15|
-|confidence-intervals--16|
-|confidence-intervals--17|
-|confidence-intervals--18|
-|confidence-intervals--19|
-|confidence-intervals--20|
-|confidence-intervals--21|
-|confidence-intervals--22|
-|confidence-intervals--23|
-|confidence-intervals--24|
-|confidence-intervals--25|
-|confidence-intervals--26|
+|hypothesis-testing--01|
+|hypothesis-testing--02|
+|hypothesis-testing--03|
+|hypothesis-testing--04|
+|hypothesis-testing--05|
+|hypothesis-testing--06|
+|hypothesis-testing--07|
+|hypothesis-testing--08|
+|hypothesis-testing--09|
+|hypothesis-testing--10|
+|hypothesis-testing--11|
+|hypothesis-testing--12|
+|hypothesis-testing--13|
+|hypothesis-testing--14|
+|hypothesis-testing--15|
+|hypothesis-testing--16|
+|hypothesis-testing--17|
+|hypothesis-testing--18|
+|hypothesis-testing--19|
+|hypothesis-testing--20|
 
 
-.. |confidence-intervals--01| image:: images/s08r01-confidence-intervals--01.jpg
-.. |confidence-intervals--02| image:: images/s08r01-confidence-intervals--02.jpg
-.. |confidence-intervals--03| image:: images/s08r01-confidence-intervals--03.jpg
-.. |confidence-intervals--04| image:: images/s08r01-confidence-intervals--04.jpg
-.. |confidence-intervals--05| image:: images/s08r01-confidence-intervals--05.jpg
-.. |confidence-intervals--06| image:: images/s08r01-confidence-intervals--06.jpg
-.. |confidence-intervals--07| image:: images/s08r01-confidence-intervals--07.jpg
-.. |confidence-intervals--08| image:: images/s08r01-confidence-intervals--08.jpg
-.. |confidence-intervals--09| image:: images/s08r01-confidence-intervals--09.jpg
-.. |confidence-intervals--10| image:: images/s08r01-confidence-intervals--10.jpg
-.. |confidence-intervals--11| image:: images/s08r01-confidence-intervals--11.jpg
-.. |confidence-intervals--12| image:: images/s08r01-confidence-intervals--12.jpg
-.. |confidence-intervals--13| image:: images/s08r01-confidence-intervals--13.jpg
-.. |confidence-intervals--14| image:: images/s08r01-confidence-intervals--14.jpg
-.. |confidence-intervals--15| image:: images/s08r01-confidence-intervals--15.jpg
-.. |confidence-intervals--16| image:: images/s08r01-confidence-intervals--16.jpg
-.. |confidence-intervals--17| image:: images/s08r01-confidence-intervals--17.jpg
-.. |confidence-intervals--18| image:: images/s08r01-confidence-intervals--18.jpg
-.. |confidence-intervals--19| image:: images/s08r01-confidence-intervals--19.jpg
-.. |confidence-intervals--20| image:: images/s08r01-confidence-intervals--20.jpg
-.. |confidence-intervals--21| image:: images/s08r01-confidence-intervals--21.jpg
-.. |confidence-intervals--22| image:: images/s08r01-confidence-intervals--22.jpg
-.. |confidence-intervals--23| image:: images/s08r01-confidence-intervals--23.jpg
-.. |confidence-intervals--24| image:: images/s08r01-confidence-intervals--24.jpg
-.. |confidence-intervals--25| image:: images/s08r01-confidence-intervals--25.jpg
-.. |confidence-intervals--26| image:: images/s08r01-confidence-intervals--26.jpg
+.. |hypothesis-testing--01| image:: images/s08r01-hypothesis-testing--01.jpg
+.. |hypothesis-testing--02| image:: images/s08r01-hypothesis-testing--02.jpg
+.. |hypothesis-testing--03| image:: images/s08r01-hypothesis-testing--03.jpg
+.. |hypothesis-testing--04| image:: images/s08r01-hypothesis-testing--04.jpg
+.. |hypothesis-testing--05| image:: images/s08r01-hypothesis-testing--05.jpg
+.. |hypothesis-testing--06| image:: images/s08r01-hypothesis-testing--06.jpg
+.. |hypothesis-testing--07| image:: images/s08r01-hypothesis-testing--07.jpg
+.. |hypothesis-testing--08| image:: images/s08r01-hypothesis-testing--08.jpg
+.. |hypothesis-testing--09| image:: images/s08r01-hypothesis-testing--09.jpg
+.. |hypothesis-testing--10| image:: images/s08r01-hypothesis-testing--10.jpg
+.. |hypothesis-testing--11| image:: images/s08r01-hypothesis-testing--11.jpg
+.. |hypothesis-testing--12| image:: images/s08r01-hypothesis-testing--12.jpg
+.. |hypothesis-testing--13| image:: images/s08r01-hypothesis-testing--13.jpg
+.. |hypothesis-testing--14| image:: images/s08r01-hypothesis-testing--14.jpg
+.. |hypothesis-testing--15| image:: images/s08r01-hypothesis-testing--15.jpg
+.. |hypothesis-testing--16| image:: images/s08r01-hypothesis-testing--16.jpg
+.. |hypothesis-testing--17| image:: images/s08r01-hypothesis-testing--17.jpg
+.. |hypothesis-testing--18| image:: images/s08r01-hypothesis-testing--18.jpg
+.. |hypothesis-testing--19| image:: images/s08r01-hypothesis-testing--19.jpg
+.. |hypothesis-testing--20| image:: images/s08r01-hypothesis-testing--20.jpg
+
 
 This is the final page.
 

@@ -1,0 +1,58 @@
+{% import "macros/ork.jinja" as ork with context %}
+
+Confidence Intervals
+**************************************************
+
+Excerpt from Chapter 7 of *The Cartoon Guide to Statistics*.
+
+|comparing-two-populations--01|
+|comparing-two-populations--02|
+|comparing-two-populations--03|
+|comparing-two-populations--04|
+|comparing-two-populations--05|
+|comparing-two-populations--06|
+|comparing-two-populations--07|
+|comparing-two-populations--08|
+|comparing-two-populations--09|
+|comparing-two-populations--10|
+|comparing-two-populations--11|
+|comparing-two-populations--12|
+|comparing-two-populations--13|
+|comparing-two-populations--14|
+|comparing-two-populations--15|
+|comparing-two-populations--16|
+|comparing-two-populations--17|
+|comparing-two-populations--18|
+|comparing-two-populations--19|
+|comparing-two-populations--20|
+|comparing-two-populations--21|
+|comparing-two-populations--22|
+|comparing-two-populations--23|
+
+
+.. |comparing-two-populations--01| image:: images/s08r02-comparing-two-populations--01.jpg
+.. |comparing-two-populations--02| image:: images/s08r02-comparing-two-populations--02.jpg
+.. |comparing-two-populations--03| image:: images/s08r02-comparing-two-populations--03.jpg
+.. |comparing-two-populations--04| image:: images/s08r02-comparing-two-populations--04.jpg
+.. |comparing-two-populations--05| image:: images/s08r02-comparing-two-populations--05.jpg
+.. |comparing-two-populations--06| image:: images/s08r02-comparing-two-populations--06.jpg
+.. |comparing-two-populations--07| image:: images/s08r02-comparing-two-populations--07.jpg
+.. |comparing-two-populations--08| image:: images/s08r02-comparing-two-populations--08.jpg
+.. |comparing-two-populations--09| image:: images/s08r02-comparing-two-populations--09.jpg
+.. |comparing-two-populations--10| image:: images/s08r02-comparing-two-populations--10.jpg
+.. |comparing-two-populations--11| image:: images/s08r02-comparing-two-populations--11.jpg
+.. |comparing-two-populations--12| image:: images/s08r02-comparing-two-populations--12.jpg
+.. |comparing-two-populations--13| image:: images/s08r02-comparing-two-populations--13.jpg
+.. |comparing-two-populations--14| image:: images/s08r02-comparing-two-populations--14.jpg
+.. |comparing-two-populations--15| image:: images/s08r02-comparing-two-populations--15.jpg
+.. |comparing-two-populations--16| image:: images/s08r02-comparing-two-populations--16.jpg
+.. |comparing-two-populations--17| image:: images/s08r02-comparing-two-populations--17.jpg
+.. |comparing-two-populations--18| image:: images/s08r02-comparing-two-populations--18.jpg
+.. |comparing-two-populations--19| image:: images/s08r02-comparing-two-populations--19.jpg
+.. |comparing-two-populations--20| image:: images/s08r02-comparing-two-populations--20.jpg
+.. |comparing-two-populations--21| image:: images/s08r02-comparing-two-populations--21.jpg
+.. |comparing-two-populations--22| image:: images/s08r02-comparing-two-populations--22.jpg
+.. |comparing-two-populations--23| image:: images/s08r02-comparing-two-populations--23.jpg
+
+This is the final page.
+
