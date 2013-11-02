@@ -177,7 +177,7 @@ PSet
 Week 7
 ---------
 
-* `SticiGui, Chapter 23: The Normal Curve, the Central Limit Theorem, and Markov's and Chebychev's Inequalities for Random Variables <http://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm>`_ [#]_
+* `SticiGui, Chapter 23: The Normal Curve, the Central Limit Theorem, and Markov's and Chebychev's Inequalities for Random Variables <http://www.stat.berkeley.edu/~stark/SticiGui/Text/clt.htm>`_
 * `The Cartoon Guide to Statistics, Chapter 5: A Tale of Two Distributions <s07r01.html>`_
 
 Lab
