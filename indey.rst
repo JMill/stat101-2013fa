@@ -220,9 +220,16 @@ Inferential Statistics
 Week 8
 ---------
 
-.. NOTE:: As in previous weeks, this week's content will be released in stages.
-
+* `The Cartoon Guide to Statistics, Chapter 7: Confidence Intervals <s08r01.html>`_
 * `SticiGui, Chapter 26: Confidence Intervals <http://www.stat.berkeley.edu/~stark/SticiGui/Text/confidenceIntervals.htm>`_
+
+Lab
+
+* `Lab 07 <s08lab.html>`_
+
+PSet
+
+* `PSet 07 <s08pset.html>`_
 
 .. Estimating unknown parameters
     ===============================
@@ -244,14 +251,16 @@ Week 8
 Week 9
 ---------
 
-Mid-Term Exam 2, covering Weeks 5-7, with some review from Weeks 1-6.
+Mid-Term Exam 2, covering Weeks 5-7, with some review from Weeks 1-3.
 
 
 
 Week 10
 ---------
 
-Read: `Chapter 27: Hypothesis Testing: Does Chance Explain the Results? <http://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm>`_
+.. NOTE:: As in previous weeks, this week's content will be released in stages.
+
+* `SticiGui, Chapter 27: Hypothesis Testing: Does Chance Explain the Results? <http://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm>`_
 
 Testing Statistical Hypotheses
 ==================================
@@ -329,7 +338,3 @@ Exercise Set 12:
 
 Lab:
 (More project stuff? How to write up and publish results )
-
-----------------------------------------------------------------------------------------------------------------------------
-
-.. [#] The textbook's author sure isn't afraid of long, jargon-filled chapter titles, is he? ;)
