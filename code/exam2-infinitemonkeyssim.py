@@ -1,6 +1,6 @@
 import random
 
-targetWord='sfu'
+targetWord='s'
 characters="abcdefghijklmnopqrstuvwxyz"
 targetLength = len(targetWord)
 
@@ -31,7 +31,7 @@ def monkeySim(trials):
         guessSum += numGuesses
     return low, high, guessSum
 
-trials = 1000
+trials = 1 #can change this
 low, high, guessSum = monkeySim(trials)
 average = guessSum / trials
 print "Fewest number of guesses: " + str(low)

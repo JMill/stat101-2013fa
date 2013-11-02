@@ -1,6 +1,6 @@
 import random
 
-targetWord='hi'
+targetWord='h'
 characters="abcdefghijklmnopqrstuvwxyz"
 targetLength = len(targetWord)
 guess = ""
