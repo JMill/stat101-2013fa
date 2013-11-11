@@ -256,13 +256,21 @@ Mid-Term Exam 2, covering Weeks 5-7, with some review from Weeks 1-3.
 
 
 Week 10
----------
-
-.. NOTE:: As in previous weeks, this week's content will be released in stages.
+------------
 
 * `The Cartoon Guide to Statistics, Chapter 8: Hypothesis Testing <s08r01.html>`_
 * `The Cartoon Guide to Statistics, Chapter 9: Comparing Two Populations <s08r02.html>`_
 * `SticiGui, Chapter 27: Hypothesis Testing: Does Chance Explain the Results? <http://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm>`_
+* NEW: `Alpha and Critical Points <s08l01.html>`_
+
+Lab
+
+* There is no lab for this week.
+
+PSet
+
+* Review examples throughout the readings.
+
 
 .. Testing Statistical Hypotheses
     ==================================
@@ -276,10 +284,6 @@ Week 10
 
     Exercise Set 9:
     Bluman Ch 8
-
-    Lab:
-    World Series sim. P-value
-    Vinay 12.4 p170. 
 
 
 Week 11
@@ -298,8 +302,9 @@ One-sample and two-sample tests
 Exercise Set 10:
 
 Lab:
-???
-(Show how to find data for project? Creating tumblr)
+World Series sim. P-value
+Vinay 12.4 p170. 
+?? (Show how to find data for project? Creating tumblr)
 
 
 Week 12
