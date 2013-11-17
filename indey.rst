@@ -9,6 +9,11 @@ The content linked below is guaranteed to have typos. Let me know when you find 
 
 - `Watch Stat 101 introduction <s00v01.html>`_
 
+Project Information:
+
+- `Guide and due dates <project-guide.html>`_
+- `Sample topic ideas <project-ideas.html>`_
+
 ----
 
 Data Analysis
