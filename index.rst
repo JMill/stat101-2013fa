@@ -266,7 +266,7 @@ Week 10
 * `The Cartoon Guide to Statistics, Chapter 8: Hypothesis Testing <s08r01.html>`_
 * `The Cartoon Guide to Statistics, Chapter 9: Comparing Two Populations <s08r02.html>`_
 * `SticiGui, Chapter 27: Hypothesis Testing: Does Chance Explain the Results? <http://www.stat.berkeley.edu/~stark/SticiGui/Text/testing.htm>`_
-* NEW: `Alpha and Critical Points <s08l01.html>`_
+* `Alpha and Critical Points <s08l01.html>`_
 
 Lab
 
@@ -289,3 +289,50 @@ PSet
 
     Exercise Set 9:
     Bluman Ch 8
+
+
+Weeks 11 and 12 (combined)
+----------------------------
+
+.. NOTE::
+    As in previous weeks, content will be released in stages.
+
+Read: `Chapter 30: Approximate Hypothesis Tests: The z Test and the t Test <http://www.stat.berkeley.edu/~stark/SticiGui/Text/zTest.htm>`_
+
+Lab
+
+* (forthcoming) World Series simulator
+
+PSet
+
+* (forthcoming) PSet 09
+
+.. Vinay 12.4 p170. 
+
+.. One-sample and two-sample tests
+    ===================================
+
+    - z-test for a population mean
+    - t-test for a population mean
+    - Testing for the difference between means
+    - Testing for the difference between proportions
+
+    Exercise Set 10:
+
+    
+    ?? (Show how to find data for project? Creating tumblr)
+
+
+.. Dependent samples
+    =======================
+
+    - Paired samples: parametric analysis
+    - Paired samples: nonparametric analysis
+    - Randomized experiments: method
+    - Randomized experiments: justification
+
+    Exercise Set 11:
+
+    Lab:
+    ???
+    (Project stuff?)
