@@ -301,7 +301,7 @@ Read: `Chapter 30: Approximate Hypothesis Tests: The z Test and the t Test <http
 
 Lab
 
-* (forthcoming) World Series simulator
+* `Lab 09: World Series simulator <s09lab.html>`_
 
 PSet
 

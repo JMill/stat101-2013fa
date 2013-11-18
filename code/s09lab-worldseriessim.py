@@ -2,9 +2,11 @@ import random
 import pylab
 
 def playSeries( numGames, teamProb):
-    """Assumes numGames an odd integer,
-         teamProb a floaat between 0 and 1
-       Returns True if better team wins series"""
+    '''
+    Assumes numGames an odd integer,
+    teamProb a float between 0 and 1
+    Returns True if better team wins series
+    '''
     numWon = 0
     for game in range(numGames):
         if random.random() <= teamProb:
