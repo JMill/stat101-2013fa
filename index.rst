@@ -294,9 +294,6 @@ PSet
 Weeks 11 and 12 (combined)
 ----------------------------
 
-.. NOTE::
-    As in previous weeks, content will be released in stages.
-
 Read: `Chapter 30: Approximate Hypothesis Tests: The z Test and the t Test <http://www.stat.berkeley.edu/~stark/SticiGui/Text/zTest.htm>`_
 
 Lab
@@ -305,7 +302,7 @@ Lab
 
 PSet
 
-* (forthcoming) PSet 09
+* `PSet 09 <s09pset.html>`_
 
 .. Vinay 12.4 p170. 
 
@@ -336,3 +333,28 @@ PSet
     Lab:
     ???
     (Project stuff?)
+
+
+Week 13
+---------
+
+.. NOTE::
+    As in previous weeks, content will be released in stages.
+
+Read: `Chapter 31: The Multinomial Distribution and the Chi-Squared Test for Goodness of Fit <http://www.stat.berkeley.edu/~stark/SticiGui/Text/chiSquare.htm>`_
+
+.. 
+    Window to a wider world
+    =============================
+
+    - Not everything's normal: a chi-squared test
+    - How Fisher used the chi-squared test
+    - Chi-squared test for independence
+
+    (General future directions. Cartoon ch11 pp211-218)
+    Goodness of fit: Sullivan 11-1
+
+    Exercise Set 12:
+
+    Lab:
+    (More project stuff? How to write up and publish results )

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <document xmlns="http://www.omnigroup.com/namespace/OmniGraphSketcher/v1" app-id="com.omnigroup.OmniGraphSketcher" app-version="5.0.110957" os-name="NSMACHOperatingSystem" os-version="10.8.5" machine-model="MacBookPro8,1">
   <window>
-    <frame x="379" y="174" w="560" h="495"/>
+    <frame x="368" y="131" w="560" h="495"/>
   </window>
   <graph>
     <canvas w="560" h="397" auto-whitespace="true">
@@ -102,9 +102,55 @@
         <element idref="e85" param="0.08929688"/>
       </snapped-to>
     </vertex>
+    <vertex id="e21504" x="9" y="1.10246" width="4.25132">
+      <color r="1" g="0" b="0"/>
+    </vertex>
+    <vertex id="e21506" x="9" y="0" width="4.25132">
+      <color r="1" g="0" b="0"/>
+    </vertex>
+    <vertex id="e21489" x="5" y="9" width="4.25132">
+      <color r="0.100516" g="0.100513" b="0.100515"/>
+    </vertex>
+    <vertex id="e21494" x="5" y="0" width="4.25132">
+      <color r="1" g="0" b="0"/>
+    </vertex>
+    <vertex id="e21481" x="10" y="1" width="4.25132">
+      <color r="0.100516" g="0.100513" b="0.100515"/>
+    </vertex>
+    <vertex id="e34414" x="9.80104" y="0.995526" width="4.25132">
+      <color r="1" g="0" b="0"/>
+      <snapped-to>
+        <element idref="e85" param="0.9639323"/>
+      </snapped-to>
+    </vertex>
+    <vertex id="e34415" x="9.80862" y="0" width="4.25132">
+      <color r="1" g="0" b="0"/>
+    </vertex>
+    <vertex id="e38713" x="1" y="1.10075" width="4.25132">
+      <color r="1" g="0" b="0"/>
+    </vertex>
+    <vertex id="e38714" x="1" y="0" width="4.25132">
+      <color r="1" g="0" b="0"/>
+    </vertex>
     <line id="e85" width="4.25132" dash="solid" class="connect" method="curved">
       <color r="0.100516" g="0.100513" b="0.100515"/>
       <vertices ids="e33 e34 e35 e36 e37 e38 e39"/>
+    </line>
+    <line id="e21500" width="4.25132" dash="solid" class="connect" method="curved">
+      <color r="1" g="0" b="0"/>
+      <vertices ids="e21504 e21506"/>
+    </line>
+    <line id="e21490" width="4.25132" dash="solid" class="connect" method="curved">
+      <color r="1" g="0" b="0"/>
+      <vertices ids="e21489 e21494"/>
+    </line>
+    <line id="e34410" width="4.25132" dash="solid" class="connect" method="curved">
+      <color r="1" g="0" b="0"/>
+      <vertices ids="e34414 e34415"/>
+    </line>
+    <line id="e38709" width="4.25132" dash="solid" class="connect" method="curved">
+      <color r="1" g="0" b="0"/>
+      <vertices ids="e38713 e38714"/>
     </line>
     <fill id="e8">
       <color r="0" g="1" b="0.0909247" a="0.5"/>
@@ -128,6 +174,42 @@
         <p>
           <run>
             <lit>Y Axis</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e21524" x="9.26893" y="1.33312">
+      <text>
+        <p>
+          <run>
+            <lit>+3.04</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e21525" x="8.21802" y="0.241717">
+      <text>
+        <p>
+          <run>
+            <lit>+2.58</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e21526" x="4.63575" y="0.342995">
+      <text>
+        <p>
+          <run>
+            <lit>0</lit>
+          </run>
+        </p>
+      </text>
+    </label>
+    <label id="e38715" x="1.18691" y="0.395111">
+      <text>
+        <p>
+          <run>
+            <lit>-2.58</lit>
           </run>
         </p>
       </text>
