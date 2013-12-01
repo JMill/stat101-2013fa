@@ -338,10 +338,11 @@ PSet
 Week 13
 ---------
 
-.. NOTE::
-    As in previous weeks, content will be released in stages.
-
 Read: `Chapter 31: The Multinomial Distribution and the Chi-Squared Test for Goodness of Fit <http://www.stat.berkeley.edu/~stark/SticiGui/Text/chiSquare.htm>`_
+
+PSet:
+
+* `PSet 10 <s10pset.html>`_
 
 .. 
     Window to a wider world
@@ -358,3 +359,4 @@ Read: `Chapter 31: The Multinomial Distribution and the Chi-Squared Test for Goo
 
     Lab:
     (More project stuff? How to write up and publish results )
+
