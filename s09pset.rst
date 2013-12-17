@@ -29,8 +29,6 @@ Here is a graphic to help you summarize te results of a hypothesis test:
 [#]_ A researcher wishes to test the claim that the average cost of tuition and fees at a four-year public college is greater than $5700. She selects a random sample of 36 four-year public colleges and finds the mean to be $5950. The population standard deviation is $659. Is there evidence to support the claim that :math:`\alpha = 0.05`? Use the *P*-value method.
 
 
-
-
 |
 |
 |
@@ -92,7 +90,7 @@ Solutions
 
     :math:`z = \dfrac{\overline{X}-\mu}{\sigma/\sqrt{n}}= \dfrac{5950-5700}{659/\sqrt{36}} = 2.28`
 
-    Step 3: Find the *P*-value. Find the corresponding area under the normal distribution for *z* = 2.28. It is about 0.9887. Subtract this value fro the area from 1.00 to find the area in the right tail.
+    Step 3: Find the *P*-value. Find the corresponding area under the normal distribution for *z* = 2.28. It is about 0.9887. Subtract this value from 1.00 to find the area in the right tail.
 
     :math:`1.0000 - 0.9887 = 0.0113`
 
@@ -100,7 +98,7 @@ Solutions
 
     Step 4: Make the decision. Since *P*-value is less than 0.05, the decision is to reject the null hypothesis.
 
-    Step 5: Summarize the results. There is enought evidence to support the claim that the tutition and fees at four-year public colleges are greater than $5700.
+    Step 5: Summarize the results. There is enough evidence to support the claim that the tutition and fees at four-year public colleges are greater than $5700.
 
     |s09pset-nullhypothesis-high-5900dollars|
 
