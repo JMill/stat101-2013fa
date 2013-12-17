@@ -8,6 +8,7 @@ Jonathan B. Miller, Saint Francis University, 2013 Fall
 The content linked below is guaranteed to have typos. Let me know when you find one so I can fix it.
 
 - `Watch Stat 101 introduction <s00v01.html>`_
+- `Statistical symbols reference <http://www.rapidtables.com/math/symbols/Statistical_Symbols.htm>`_
 
 Project Information:
 
