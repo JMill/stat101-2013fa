@@ -3,7 +3,7 @@
 Data Description
 *******************************************************
 
-**Data** is the statistician's raw material – the numbers we use to interpret reality. All statistical problems involve either the collection, description, and analysis of data, or at least *thinking* about the collection, description, and analysis of data. 
+**Data** is the statistician's raw material - the numbers we use to interpret reality. All statistical problems involve either the collection, description, and analysis of data, or at least *thinking* about the collection, description, and analysis of data. 
 
 *Data description* tools are important because they help us to make sense of a heap of numbers, on the order of hundreds, thousands, millions, or more. [#]_ So how can we represent data in useful ways? How can we discover underlying patterns? How can we summarize a dataset's basic shape?  Lets take a look.
 
@@ -15,10 +15,10 @@ To learn about data description, it's handy to have some data. A long time ago, 
 Here is the data:
 
 **Males**
-	140 145 160 190 155 165 150 190 195 138 160 155 153 145 170 175 175 170 180 135 170 157 130 185 190 155 170 155 215 150 145 155 155 150 155 150 180 160 135 160 130 155 150 148 155 150 140 180 190 145 150 164 140 142 136 123 155
-	
+    140 145 160 190 155 165 150 190 195 138 160 155 153 145 170 175 175 170 180 135 170 157 130 185 190 155 170 155 215 150 145 155 155 150 155 150 180 160 135 160 130 155 150 148 155 150 140 180 190 145 150 164 140 142 136 123 155
+    
 **Females**
-	140 120 130 138 121 125 116 145 150 112 125 130 120 130 131 120 118 125 135 125 118 122 115 102 115 150 110 116 108 95 125 133 110 150 108
+    140 120 130 138 121 125 116 145 150 112 125 130 120 130 131 120 118 125 135 125 118 122 115 102 115 150 110 116 108 95 125 133 110 150 108
 
 
 |hist1|
@@ -37,21 +37,21 @@ Frequency Table and Histogram
 We can summarize the data with a **frequency table**. Divide the number line into intervals and count the number of student weights within each interval. The **frequency** is the count in any given interval. The **relative frequency** is the proportion of weights in each interval. In other words, it's the frequency divided by the total number of students.
 
 
-==============	========	=========	==================
-Class Interval 	Midpoint	Frequency 	Relative Frequency
-==============	========	=========	==================
-87.5-102.4  	95      	2       	0.022
-102.5-117.5 	110     	9        	0.098
-117.5-132.4 	125     	19      	0.206
-132.5-147.4 	140     	17       	0.185
-147.5-162.4   	155     	27       	0.293
-162.5-177.4    	170     	8        	0.087
-177.5-192.4   	185     	8        	0.087
-192.5-207.5   	200     	1        	0.011
-207.5-222.4   	215     	1        	0.011
---------------	--------	---------	------------------
-**Total**         	        **92**     	**1.000**  
-==============	========	=========	==================
+==============  ========    =========   ==================
+Class Interval  Midpoint    Frequency   Relative Frequency
+==============  ========    =========   ==================
+87.5-102.4      95          2           0.022
+102.5-117.5     110         9           0.098
+117.5-132.4     125         19          0.206
+132.5-147.4     140         17          0.185
+147.5-162.4     155         27          0.293
+162.5-177.4     170         8           0.087
+177.5-192.4     185         8           0.087
+192.5-207.5     200         1           0.011
+207.5-222.4     215         1           0.011
+--------------  --------    ---------   ------------------
+**Total**                   **92**      **1.000**  
+==============  ========    =========   ==================
 
 
 Frequency table guidelines:
@@ -78,44 +78,44 @@ Stem-and-leaf diagrams are handy for arranging and visualizing data if you don't
 
 To construct a stem-and-leaf of the weight data, make a column of numbers consisting of the weight data counted by tens. In other words, we leave off the last digit. If a data point was 135 pounds, we would add 13 to the column.
 
-=====	==	===========================================
-Stem 	:	Leaves
-=====	==	===========================================
-9    	:	
-10   	:	
-11   	:	
-12   	:	
-13   	:
-14   	:
-15   	:
-16   	:
-17   	:
-18   	:
-19   	:
-20   	:
-21   	:
-=====	== 	===========================================
+=====   ==  ===========================================
+Stem    :   Leaves
+=====   ==  ===========================================
+9       :   
+10      :   
+11      :   
+12      :   
+13      :
+14      :
+15      :
+16      :
+17      :
+18      :
+19      :
+20      :
+21      :
+=====   ==  ===========================================
 
 
 Next, add the final digit of each weight in the corresponding row.
 
-=====	==	===========================================
-Stem 	:	Leaves
-=====	==	===========================================
-9    	:	
-10   	:	
-11   	:	628
-12   	:	0155005
-13   	:	080015
-14   	:	05
-15   	:	0
-16   	:
-17   	:
-18   	:
-19   	:
-20   	:
-21   	:
-=====	== 	===========================================
+=====   ==  ===========================================
+Stem    :   Leaves
+=====   ==  ===========================================
+9       :   
+10      :   
+11      :   628
+12      :   0155005
+13      :   080015
+14      :   05
+15      :   0
+16      :
+17      :
+18      :
+19      :
+20      :
+21      :
+=====   ==  ===========================================
 
 To understand how to read this, lets look in the Stem column, number 11. The 11 means that the weights in that row correspond to a weight of 11\_ pounds. Look to the right of the 11, in the Leaves column. There are three leaves: a 6, a 2, and an 8. These digits 'fill in' the gap in 11\_ pounds. When you drop the 6 into 11\_, it means 116 pounds.  Doing the same for the 2 and then the 8 gives us 112 pounds and 118 pounds, respectively.
 
@@ -125,43 +125,43 @@ Look at stem 12. What are the corresponding weights? They all fit the pattern of
 
 I'll continue filling in the table with the rest of the weight data.
 
-=====	==	===========================================
-Stem 	:	Leaves
-=====	==	===========================================
-9    	:	5
-10   	:	288
-11   	:	628855060
-12   	:	01553005525
-13   	:	8500850600153
-14   	:	05505580502
-15   	:	5053705505505050500500
-16   	:	050004
-17   	:	055000
-18   	:	0500
-19   	:	00500
-20   	:	
-21   	:	5
-=====	== 	===========================================
+=====   ==  ===========================================
+Stem    :   Leaves
+=====   ==  ===========================================
+9       :   5
+10      :   288
+11      :   628855060
+12      :   01553005525
+13      :   8500850600153
+14      :   05505580502
+15      :   5053705505505050500500
+16      :   050004
+17      :   055000
+18      :   0500
+19      :   00500
+20      :   
+21      :   5
+=====   ==  ===========================================
 
 To complete the stem-and-leaf diagram, arrange the leaves in ascending order.
 
-=====	==	===========================================
-Stem 	:	Leaves
-=====	==	===========================================
-9    	:	5
-10   	:	288
-11   	:	002556688
-12   	:	00012355555
-13   	:	0000013555688
-14   	:	00002555558
-15   	:	0000000000355555555557
-16   	:	000045
-17   	:	000055
-18   	:	0005
-19   	:	000005
-20   	:	
-21   	:	5
-=====	== 	===========================================
+=====   ==  ===========================================
+Stem    :   Leaves
+=====   ==  ===========================================
+9       :   5
+10      :   288
+11      :   002556688
+12      :   00012355555
+13      :   0000013555688
+14      :   00002555558
+15      :   0000000000355555555557
+16      :   000045
+17      :   000055
+18      :   0005
+19      :   000005
+20      :   
+21      :   5
+=====   ==  ===========================================
 
 As you review the plot, it's pretty easy to detect the students' bias toward reporting their weights rounded to 0 or 5 pounds. (Unless these students only grow in 5 pound increments – there may be something in the water in Happy Valley!)
 
